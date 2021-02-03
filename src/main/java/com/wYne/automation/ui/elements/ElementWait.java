@@ -2,7 +2,7 @@ package com.wYne.automation.ui.elements;
 
 
 import com.google.common.collect.ImmutableList;
-import com.slqa.general.ResourceLoader;
+import com.wYne.automation.general.ResourceLoader;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriverException;

@@ -225,6 +225,16 @@
             <artifactId>swagger-inflector</artifactId>
             <version>1.0.14</version>
         </dependency>
+        <dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.11.3</version>
+        </dependency>
+        <dependency>
+            <groupId>net.lingala.zip4j</groupId>
+            <artifactId>zip4j</artifactId>
+            <version>1.3.2</version>
+        </dependency>
 
     </dependencies>
 

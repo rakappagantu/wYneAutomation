@@ -3,25 +3,16 @@ package com.wYne.automation.tests.base;
 import com.ispl.automation.pages.TemplatePage;
 import com.jayway.jsonpath.JsonPath;
 import com.jayway.jsonpath.ReadContext;
-import com.slqa.config.ConfigManager;
-import com.slqa.config.PropertyUtil;
-import com.slqa.datatypes.LoginUserType;
-import com.slqa.datatypes.UserBean;
-import com.slqa.datatypes.UserInfo;
-import com.slqa.exceptions.DataNotFoundException;
-import com.slqa.exceptions.SLRestServiceException;
-import com.slqa.general.ResourceLoader;
-import com.slqa.general.SlResultEntity;
-import com.slqa.general.Utils;
-import com.slqa.ui.core.BrowserCapabilities;
-import com.slqa.ui.core.SlAssertionService;
-import com.slqa.ui.core.TCMetaData;
-import com.slqa.ui.core.Waiting;
-import com.slqa.ui.driver.SlExtendedWebDriver;
-import com.slqa.ui.driver.SlWebDriver;
+import com.wYne.automation.config.ConfigManager;
+import com.wYne.automation.config.PropertyUtil;
+import com.wYne.automation.exceptions.DataNotFoundException;
+import com.wYne.automation.general.ResourceLoader;
+import com.wYne.automation.general.Utils;
+import com.wYne.automation.ui.core.BrowserCapabilities;
+import com.wYne.automation.ui.core.Waiting;
+import com.wYne.automation.ui.driver.SlExtendedWebDriver;
+import com.wYne.automation.ui.driver.SlWebDriver;
 import com.snaplogic.automation.framework.Listener;
-import com.snaplogic.automation.framework.NewTrackerLog;
-import com.snaplogic.automation.framework.TrackerFactory;
 import com.snaplogic.automation.framework.core.SlInitSettingsFactory;
 import com.wYne.automation.config.*;
 import com.wYne.automation.ui.core.BrowserCapabilities;
@@ -127,13 +118,6 @@ public class WebDriverBaseTest {
         //System.setProperty("webdriver.firefox.marionette","true");
     }
 
-    private void setTrackerProp() {
-        String enableTracker = getSystemProperty("enableTracker");
-
-        if (!enableTracker.isEmpty()){
-            ConfigManager.getBundle().setProperty("enableTracker",enableTracker);
-        }
-    }
 
 
 
@@ -167,46 +151,6 @@ public class WebDriverBaseTest {
         setLogsAndOutPutDir();
         updateConfigurations(baseUrl, browser, server);
         this.envBaseUrl = ConfigManager.getBundle().getString("env.baseurl");
-
-        testPassName = ConfigManager.getBundle().getString("testPassName");
-        String tmpUrl = ConfigManager.getBundle().getString("env.baseurl").replace("https://","");
-        podName = tmpUrl.substring(0,tmpUrl.indexOf("."));
-
-        if (podName.equalsIgnoreCase("stagexl"))
-            podName = "stage";
-        if (podName.equalsIgnoreCase("uatv2lbtest"))
-            podName = "uat";
-
-        Set keysToBeDeleted = keysToBeDeletedFromProps();
-        for (Object key:keysToBeDeleted) {
-            ConfigManager.getBundle().clearProperty(key.toString());
-        }
-        baseUrl = ConfigManager.getBundle().getString("env.baseurl");
-        if (podName.contains("canary")){
-            ConfigManager.getInstance().loadProps(new File("resources/Canary_config.properties"));
-        }else if (baseUrl.contains("uat")) {
-            ConfigManager.getInstance().loadProps(new File("resources/UAT_config.properties"));
-        }else if (baseUrl.contains("budgy")) {
-            ConfigManager.getInstance().loadProps(new File("resources/Budgy_config.properties"));
-        }else if (baseUrl.contains("ux")) {
-            ConfigManager.getInstance().loadProps(new File("resources/UX_config.properties"));
-        }else if (baseUrl.contains("stage")) {
-            ConfigManager.getInstance().loadProps(new File("resources/Stage_config.properties"));
-        }else if (baseUrl.contains("pebv2")) {
-            ConfigManager.getInstance().loadProps(new File("resources/Pebv2_config.properties"));
-        }else if (baseUrl.contains("tahoe")) {
-            ConfigManager.getInstance().loadProps(new File("resources/Tahoe_config.properties"));
-        }else if (baseUrl.contains("condor")) {
-            ConfigManager.getInstance().loadProps(new File("resources/Condor_config.properties"));
-        }else if (podName.contains("elastic")) {
-            ConfigManager.getInstance().loadProps(new File("resources/Elastic_config.properties"));
-        }
-        else if (podName.contains("perfxl")) {
-        ConfigManager.getInstance().loadProps(new File("resources/Perf_config.properties"));
-        }
-
-        setTrackerProp();
-
 
         String port = getSystemProperty("selenium.port");
         if (!port.isEmpty()){
@@ -313,53 +257,22 @@ public class WebDriverBaseTest {
     @AfterMethod(alwaysRun = true)
     public void afterMethodBase(ITestResult result, Object[] testArgs) {
 
-        try {
-            SlInitSettingsFactory.setTCEntity(new TCMetaData());
-            SlInitSettingsFactory.getDriver().navigate().refresh();
-            new TemplatePage().logout();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+
     }
 
     @AfterClass(alwaysRun = true)
     public synchronized void tearDown() throws Exception {
-        Map<String, SlResultEntity> resultEntityMap;
+
 
         logger.debug("********************* TEAR DOWN " + Thread.currentThread().getName() + "*************" + this.getClass().getCanonicalName()+ "********");
         try {
-            //if (ResourceLoader.getBundle().getString("users.from.local","true").equalsIgnoreCase("true"))
-            //    removeHashCodesFromList();
-            //else
-            releaseUsers(SlInitSettingsFactory.getUsersMap(), podName);
+
         }
         catch(Exception e){
             e.printStackTrace();
         }
         logger.debug("********************* TEAR DOWN  ------ END ----" + Thread.currentThread().getName() + "*********************");
 
-        try {
-            SlInitSettingsFactory.getDriver().close();
-            SlInitSettingsFactory.getDriver().quit();
-        }catch (Exception e){
-            e.printStackTrace();
-        }
 
-       if (ConfigManager.getBundle().getString("testrail.enable").equalsIgnoreCase("true")){
-           resultEntityMap = SlInitSettingsFactory.getResultsMap();
-           updateTestRail(resultEntityMap);
-           logger.info("#### Updating TestRail with results for className : " + this.getClass().getCanonicalName());
-       }
-
-        long duration = new Date().getTime() - startedMilliSecs;
-        String hms = String.format("%02d:%02d:%02d", TimeUnit.MILLISECONDS.toHours(duration),
-                TimeUnit.MILLISECONDS.toMinutes(duration) - TimeUnit.HOURS.toMinutes(TimeUnit.MILLISECONDS.toHours(duration)),
-                TimeUnit.MILLISECONDS.toSeconds(duration) - TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS.toMinutes(duration)));
-        logger.info("Time Taken for class :[{}] is [{}]", this.getClass().getCanonicalName(), hms);
-        SlInitSettingsFactory.setTracker(null);
-        SlInitSettingsFactory.setAssertionService(null);
-        SlInitSettingsFactory.setDriver(null);
-        SlInitSettingsFactory.setUsersMap(null);
-        SlInitSettingsFactory.setResultsMap(null);
     }
 }

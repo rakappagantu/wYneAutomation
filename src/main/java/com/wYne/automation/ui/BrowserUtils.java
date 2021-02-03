@@ -1,7 +1,7 @@
 package com.wYne.automation.ui;
 
-import com.slqa.ui.driver.SlWebDriver;
-import com.slqa.ui.elements.SlWebElement;
+import com.wYne.automation.ui.driver.SlWebDriver;
+import com.wYne.automation.ui.elements.SlWebElement;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -11,9 +11,6 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import java.awt.*;
 
 
-/**
- * Created by gaian on 23/2/16.
- */
 public class BrowserUtils  {
 
     protected SlWebDriver driver;

@@ -1,10 +1,10 @@
 package com.wYne.automation.ui.core;
 
-import com.slqa.general.ResourceLoader;
-import com.slqa.ui.driver.SlWebDriver;
-import com.slqa.ui.elements.ElementExpectedConditions;
-import com.slqa.ui.elements.ElementWait;
-import com.slqa.ui.elements.SlWebElement;
+import com.wYne.automation.general.ResourceLoader;
+import com.wYne.automation.ui.driver.SlWebDriver;
+import com.wYne.automation.ui.elements.ElementExpectedConditions;
+import com.wYne.automation.ui.elements.ElementWait;
+import com.wYne.automation.ui.elements.SlWebElement;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
