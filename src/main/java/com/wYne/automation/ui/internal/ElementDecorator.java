@@ -1,7 +1,7 @@
 package com.wYne.automation.ui.internal;
 
-import com.slqa.ui.elements.SlWebElement;
-import com.slqa.ui.elements.SnapLogger;
+import com.wYne.automation.ui.elements.SlWebElement;
+import com.wYne.automation.ui.elements.WyneLogger;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.internal.Locatable;
 import org.openqa.selenium.internal.WrapsElement;
@@ -58,10 +58,10 @@ public class ElementDecorator implements FieldDecorator {
     		how = findBy.how().toString();
     		using = findBy.using();
     		//SnapLogger.LOGGER.debug("-------END----------");
-            SnapLogger.LOGGER.debug("************************Started Identifyin elements of page:" + pageName);
-            SnapLogger.LOGGER.debug("IDENTIFYING THE OBJECT -- PAGE NAME:[" + pageName + "],ELEMENT NAME: [" + elementName + "], TYPE: [" + type + "],"
+            WyneLogger.LOGGER.debug("************************Started Identifyin elements of page:" + pageName);
+            WyneLogger.LOGGER.debug("IDENTIFYING THE OBJECT -- PAGE NAME:[" + pageName + "],ELEMENT NAME: [" + elementName + "], TYPE: [" + type + "],"
                     + " HOW:[" + how + "] , USING:[" + using + "]");
-            SnapLogger.LOGGER.debug("************************Completed identifying elements of the page: " + pageName);
+            WyneLogger.LOGGER.debug("************************Completed identifying elements of the page: " + pageName);
 
         }
         if (!(WebElement.class.isAssignableFrom(field.getType()) || isDecoratableList(field))) {

@@ -1,8 +1,8 @@
 package com.wYne.automation.ui.elements;
 
 
-import com.slqa.ui.elements.impl.SelectImpl;
-import com.slqa.ui.internal.ImplementedBy;
+import com.wYne.automation.ui.elements.impl.SelectImpl;
+import com.wYne.automation.ui.internal.ImplementedBy;
 import org.openqa.selenium.WebElement;
 
 import java.util.List;

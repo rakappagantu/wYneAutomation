@@ -1,8 +1,9 @@
 package com.wYne.automation.ui.elements;
 
 
-import com.slqa.ui.elements.impl.LabelImpl;
-import com.slqa.ui.internal.ImplementedBy;
+import com.wYne.automation.ui.elements.impl.LabelImpl;
+import com.wYne.automation.ui.internal.ImplementedBy;
+
 
 /**
  * Html form label.

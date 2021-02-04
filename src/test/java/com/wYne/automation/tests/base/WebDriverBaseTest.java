@@ -1,6 +1,6 @@
 package com.wYne.automation.tests.base;
 
-import com.ispl.automation.pages.TemplatePage;
+
 import com.jayway.jsonpath.JsonPath;
 import com.jayway.jsonpath.ReadContext;
 import com.wYne.automation.config.ConfigManager;
@@ -51,9 +51,6 @@ public class WebDriverBaseTest {
     protected Logger logger = LoggerFactory.getLogger(getClass());
     //protected List<String> tcLog = new ArrayList<String>();
     protected SlWebDriver driver;
-    protected String testPassName;
-
-
     public static PropertyUtil props;
     protected Waiting waiting;
     public String envBaseUrl;
@@ -113,8 +110,6 @@ public class WebDriverBaseTest {
         }
 
         System.setProperty("webdriver.gecko.driver", firefoxDriverPath);
-        //System.setProperty("webdriver.firefox.marionette",firefoxDriverPath);
-        //System.setProperty("webdriver.firefox.marionette","true");
     }
 
 
@@ -161,6 +156,9 @@ public class WebDriverBaseTest {
         }else if (ConfigManager.getBundle().getString("selenium.defaultBrowser").contains("firefox")){
             setFirefoxDriver();
         }
+
+        logger.info("URL: [{}]", baseUrl);
+        ConfigManager.getBundle().addProperty("ignore.test.passed", "false");
     }
 
 

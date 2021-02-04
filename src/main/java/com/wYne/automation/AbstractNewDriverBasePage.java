@@ -1,5 +1,6 @@
-package com.wYne.automation.core;
+package com.wYne.automation;
 
+import com.wYne.automation.core.SlInitSettingsFactory;
 import com.wYne.automation.exceptions.PageNotFoundException;
 import com.wYne.automation.ui.BrowserUtils;
 import com.wYne.automation.ui.core.Waiting;

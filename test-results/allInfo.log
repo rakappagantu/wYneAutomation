@@ -1,0 +1,25 @@
+2021-02-04 21:11:05 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://canary.elastic.snaplogic.com/
+2021-02-04 21:11:42 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://portal-dev-w2s2qhovzq-uw.a.run.app/accounts/login/
+2021-02-04 21:11:51 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-04 21:43:27 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://portal-dev-w2s2qhovzq-uw.a.run.app/accounts/login/
+2021-02-04 21:48:41 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://portal-dev-w2s2qhovzq-uw.a.run.app/accounts/login/
+2021-02-04 21:48:45 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-04 22:03:15 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://portal-dev-w2s2qhovzq-uw.a.run.app/accounts/login/
+2021-02-04 22:03:24 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://portal-dev-w2s2qhovzq-uw.a.run.app/accounts/login/
+2021-02-04 22:03:29 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-04 22:04:13 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://portal-dev-w2s2qhovzq-uw.a.run.app/accounts/login/
+2021-02-04 22:04:16 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-04 22:06:08 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://portal-dev-w2s2qhovzq-uw.a.run.app/accounts/login/
+2021-02-04 22:06:11 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-04 22:06:43 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://portal-dev-w2s2qhovzq-uw.a.run.app/accounts/login/
+2021-02-04 22:06:52 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-04 22:17:25 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://portal-dev-w2s2qhovzq-uw.a.run.app/accounts/login/
+2021-02-04 22:17:30 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-04 22:59:38 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://portal-dev-w2s2qhovzq-uw.a.run.app/accounts/login/
+2021-02-04 23:16:13 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://portal-dev-w2s2qhovzq-uw.a.run.app/accounts/login/
+2021-02-04 23:26:32 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://portal-dev-w2s2qhovzq-uw.a.run.app/accounts/login/
+2021-02-04 23:27:10 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-04 23:28:54 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://portal-dev-w2s2qhovzq-uw.a.run.app/accounts/login/
+2021-02-04 23:29:24 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-04 23:29:50 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://portal-dev-w2s2qhovzq-uw.a.run.app/accounts/login/
+2021-02-04 23:30:07 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass

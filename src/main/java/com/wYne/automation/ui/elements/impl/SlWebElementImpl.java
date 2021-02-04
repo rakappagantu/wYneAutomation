@@ -3,7 +3,7 @@ package com.wYne.automation.ui.elements.impl;
 import com.wYne.automation.ui.elements.ElementExpectedConditions;
 import com.wYne.automation.ui.elements.ElementWait;
 import com.wYne.automation.ui.elements.SlWebElement;
-import com.wYne.automation.ui.elements.SnapLogger;
+import com.wYne.automation.ui.elements.WyneLogger;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.internal.Coordinates;
 import org.openqa.selenium.interactions.internal.Locatable;
@@ -32,7 +32,7 @@ public class SlWebElementImpl extends RemoteWebElement implements SlWebElement {
 
     @Override
     public void click() {
-    	SnapLogger.LOGGER.debug("Clicking on the element:[" + element.toString() + "]");
+    	WyneLogger.LOGGER.debug("Clicking on the element:[" + element.toString() + "]");
         element.click();
 
     }
@@ -47,67 +47,67 @@ public class SlWebElementImpl extends RemoteWebElement implements SlWebElement {
         //SnapLogger.LOGGER.debug(keysToSend.length);
         //SnapLogger.LOGGER.debug(keysToSend[0].toString());
         //SnapLogger.LOGGER.debug(new CharSequence("ab").length());
-        SnapLogger.LOGGER.debug("SendKeys:[" + Arrays.toString((CharSequence[]) keysToSend) + "] to the element:[" + element.toString() + "]");
+        WyneLogger.LOGGER.debug("SendKeys:[" + Arrays.toString((CharSequence[]) keysToSend) + "] to the element:[" + element.toString() + "]");
     	element.sendKeys(keysToSend);
     }
 
     //@Override
     public Point getLocation() {
-    	SnapLogger.LOGGER.debug("Get the location of the element:[" + element.toString() + "]");
+    	WyneLogger.LOGGER.debug("Get the location of the element:[" + element.toString() + "]");
         return element.getLocation();
     }
 
     //@Override
     public void submit() {
-    	SnapLogger.LOGGER.debug("Submit the form/page for the element:[" + element.toString() + "]");
+    	WyneLogger.LOGGER.debug("Submit the form/page for the element:[" + element.toString() + "]");
         element.submit();
     }
 
     @Override
     public String getAttribute(String name) {
-    	SnapLogger.LOGGER.debug("Getting the attribute :[" + name + "] for the element:[" + element.toString() + "]");
+    	WyneLogger.LOGGER.debug("Getting the attribute :[" + name + "] for the element:[" + element.toString() + "]");
         return element.getAttribute(name);
     }
 
     @Override
     public String getCssValue(String propertyName) {
-    	SnapLogger.LOGGER.debug("Getting the CSS for property:[" + propertyName + "] for the element:[" + element.toString() + "]");
+    	WyneLogger.LOGGER.debug("Getting the CSS for property:[" + propertyName + "] for the element:[" + element.toString() + "]");
         return element.getCssValue(propertyName);
     }
 
     @Override
     public Dimension getSize() {
-    	SnapLogger.LOGGER.debug("Get the dimension for the element:[" + element.toString() + "]");
+    	WyneLogger.LOGGER.debug("Get the dimension for the element:[" + element.toString() + "]");
         return element.getSize();
     }
 
     @Override
     public List<WebElement> findElements(By by) {
-    	SnapLogger.LOGGER.debug("findElements by:[" + by + "] for the element:[" + element.toString() + "]");
+    	WyneLogger.LOGGER.debug("findElements by:[" + by + "] for the element:[" + element.toString() + "]");
     	return element.findElements(by);
     }
 
     @Override
     public String getText() {
-    	SnapLogger.LOGGER.debug("Getting the text for the element:[" + element.toString() + "]");
+    	WyneLogger.LOGGER.debug("Getting the text for the element:[" + element.toString() + "]");
     	return element.getText();
     }
 
     @Override
     public String getTagName() {
-    	SnapLogger.LOGGER.debug("Getting the tag for the element:[" + element.toString() + "]");
+    	WyneLogger.LOGGER.debug("Getting the tag for the element:[" + element.toString() + "]");
         return element.getTagName();
     }
 
     @Override
     public boolean isSelected() {
-    	SnapLogger.LOGGER.debug("isSelected for the element:[" + element.toString() + "]");
+    	WyneLogger.LOGGER.debug("isSelected for the element:[" + element.toString() + "]");
         return element.isSelected();
     }
 
     @Override
     public WebElement findElement(By by) {
-    	SnapLogger.LOGGER.debug("find element by :[" + by + "] for the element:[" + element.toString() + "]");
+    	WyneLogger.LOGGER.debug("find element by :[" + by + "] for the element:[" + element.toString() + "]");
     	return element.findElement(by);
     }
 
@@ -119,20 +119,20 @@ public class SlWebElementImpl extends RemoteWebElement implements SlWebElement {
 
     @Override
     public boolean isDisplayed() {
-    	SnapLogger.LOGGER.debug("isDisplayed for the element:[" + element.toString() + "]");
+    	WyneLogger.LOGGER.debug("isDisplayed for the element:[" + element.toString() + "]");
         return element.isDisplayed();
     }
 
 
     @Override
     public void clear() {
-        SnapLogger.LOGGER.debug("Clearing the contents of element :[" + element.toString() + "]");
+        WyneLogger.LOGGER.debug("Clearing the contents of element :[" + element.toString() + "]");
         element.clear();
     }
 
     public void set(String text) {
         WebElement element = getWrappedElement();
-        SnapLogger.LOGGER.debug("Setting the data :[" + text + "] in element :[" + getWrappedElement().toString() + "]");
+        WyneLogger.LOGGER.debug("Setting the data :[" + text + "] in element :[" + getWrappedElement().toString() + "]");
         //SnapLogger.LOGGER.debug("Class:" + this + ", Method:" + "set , Value:" + text);
         //element.clear();
         element.sendKeys(text);

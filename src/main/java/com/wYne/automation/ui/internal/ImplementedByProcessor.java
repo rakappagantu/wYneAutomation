@@ -1,7 +1,7 @@
 package com.wYne.automation.ui.internal;
 
 
-import com.slqa.ui.elements.SlWebElement;
+import com.wYne.automation.ui.elements.SlWebElement;
 
 /**
  * Processes the iface type into a useful class reference for wrapping WebElements.

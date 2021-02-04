@@ -1,6 +1,6 @@
 package com.wYne.automation.ui.elements.impl;
 
-import com.slqa.ui.elements.Select;
+import com.wYne.automation.ui.elements.Select;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;

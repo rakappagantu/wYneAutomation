@@ -1,8 +1,8 @@
 package com.wYne.automation.ui.elements.impl;
 
 
-import com.slqa.ui.elements.CheckBox;
-import com.slqa.ui.elements.SnapLogger;
+import com.wYne.automation.ui.elements.CheckBox;
+import com.wYne.automation.ui.elements.WyneLogger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
@@ -24,26 +24,26 @@ public class CheckBoxImpl extends SlWebElementImpl implements CheckBox {
     }
 
     public void toggle() {
-    	SnapLogger.LOGGER.debug("toggle the checkbox element :[" + getWrappedElement().toString() + "]");
+    	WyneLogger.LOGGER.debug("toggle the checkbox element :[" + getWrappedElement().toString() + "]");
         getWrappedElement().click();
     }
 
     public void check() {
-    	SnapLogger.LOGGER.debug("Check the checkbox element :[" + getWrappedElement().toString() + "]");
+        WyneLogger.LOGGER.debug("Check the checkbox element :[" + getWrappedElement().toString() + "]");
     	if (!isChecked()) {
             toggle();
         }
     }
 
     public void uncheck() {
-    	SnapLogger.LOGGER.debug("UnCheck the checkbox element :[" + getWrappedElement().toString() + "]");
+        WyneLogger.LOGGER.debug("UnCheck the checkbox element :[" + getWrappedElement().toString() + "]");
         if (isChecked()) {
             toggle();
         }
     }
 
     public boolean isChecked() {
-    	SnapLogger.LOGGER.debug("isChecked the checkbox element :[" + getWrappedElement().toString() + "]");
+        WyneLogger.LOGGER.debug("isChecked the checkbox element :[" + getWrappedElement().toString() + "]");
     	//SnapLogger.LOGGER.debug(getWrappedElement().toString());
         return getWrappedElement().isSelected();
     }

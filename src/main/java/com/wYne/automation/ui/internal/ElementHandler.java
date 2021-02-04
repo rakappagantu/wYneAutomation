@@ -1,14 +1,14 @@
 package com.wYne.automation.ui.internal;
 
-import com.slqa.ui.elements.SlWebElement;
-import com.slqa.ui.elements.SnapLogger;
+import com.wYne.automation.ui.elements.SlWebElement;
+import com.wYne.automation.ui.elements.WyneLogger;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.pagefactory.ElementLocator;
 
 import java.lang.reflect.*;
 import java.util.Arrays;
 
-import static com.slqa.ui.internal.ImplementedByProcessor.getWrapperClass;
+import static com.wYne.automation.ui.internal.ImplementedByProcessor.getWrapperClass;
 
 
 /**
@@ -61,7 +61,7 @@ public class ElementHandler implements InvocationHandler {
 		
         //SnapLogger.LOGGER.debug("ACTIONS----Class:[" + simpleClassName + "], Object:[" +simpleObjName + "], method: [" + method.getName() + "], objects:[" + objects);
 
-        SnapLogger.LOGGER.info("LOGGING THE ACTIONS:" + "CLASS:["+simpleClassName+"] , OBJECT:[" +simpleObjName + "],"
+        WyneLogger.LOGGER.info("LOGGING THE ACTIONS:" + "CLASS:["+simpleClassName+"] , OBJECT:[" +simpleObjName + "],"
         		+" METHOD:["+ method.getName() +"], VALUE:[" +value+ "]" );
         
         //SnapLogger.LOGGER.debug("######END######");

@@ -1,6 +1,6 @@
 package com.wYne.automation.ui.elements.impl;
 
-import com.slqa.ui.elements.Label;
+import com.wYne.automation.ui.elements.Label;
 import org.openqa.selenium.WebElement;
 
 /**

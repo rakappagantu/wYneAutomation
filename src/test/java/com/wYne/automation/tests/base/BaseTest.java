@@ -31,7 +31,7 @@ public class BaseTest extends BaseLogger {
     protected EmailUtils emailUtils;
     protected Utils utils;
     protected String emailUserKey;
-    public boolean newAssetPalette = false;
+
 
 
     @BeforeClass(alwaysRun = true)

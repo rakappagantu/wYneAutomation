@@ -1,6 +1,7 @@
 package com.wYne.automation.core;
 
 
+
 import com.wYne.automation.ui.driver.SlWebDriver;
 
 
@@ -14,7 +15,7 @@ public class SlInitSettingsFactory {
 
 
 
-    public static final ThreadLocal<Map<ThreadKeys, Object>> threadLocal = new ThreadLocal<Map<ThreadKeys, Object>>();
+    public static final ThreadLocal<Map<ThreadKeys, Object>> threadLocal = new ThreadLocal();
 
     public static SlWebDriver getDriver() {
         return (SlWebDriver) threadLocal.get().get(ThreadKeys.DRIVER);

@@ -1,8 +1,8 @@
 package com.wYne.automation.ui.elements;
 
 
-import com.slqa.ui.elements.impl.CheckBoxImpl;
-import com.slqa.ui.internal.ImplementedBy;
+import com.wYne.automation.ui.elements.impl.CheckBoxImpl;
+import com.wYne.automation.ui.internal.ImplementedBy;
 
 /**
  * Interface that wraps a WebElement in CheckBox functionality.
