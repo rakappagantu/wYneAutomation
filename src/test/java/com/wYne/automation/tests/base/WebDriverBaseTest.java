@@ -242,9 +242,6 @@ public class WebDriverBaseTest {
         logger.info("baseurl in setup class ---------> " + ConfigManager.getBundle().getString("env.baseurl"));
         logger.debug(ConfigManager.getBundle().getString("selenium.defaultBrowser"));
 
-        /*ConfigManager.getBundle().setProperty("ignore.skipped.testResult", "false");
-        ConfigManager.getBundle().setProperty("capture.screenshot", "true");
-        ConfigManager.getBundle().setProperty("configFailure", null);*/
 
         if (browserName.isEmpty())
             browserName = ConfigManager.getBundle().getString("selenium.defaultBrowser");
