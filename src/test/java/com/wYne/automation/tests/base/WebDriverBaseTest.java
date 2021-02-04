@@ -12,8 +12,7 @@ import com.wYne.automation.ui.core.BrowserCapabilities;
 import com.wYne.automation.ui.core.Waiting;
 import com.wYne.automation.ui.driver.SlExtendedWebDriver;
 import com.wYne.automation.ui.driver.SlWebDriver;
-import com.snaplogic.automation.framework.Listener;
-import com.snaplogic.automation.framework.core.SlInitSettingsFactory;
+import com.wYne.automation.core.SlInitSettingsFactory;
 import com.wYne.automation.config.*;
 import com.wYne.automation.ui.core.BrowserCapabilities;
 import com.wYne.automation.ui.driver.SlExtendedWebDriver;
@@ -51,7 +50,7 @@ public class WebDriverBaseTest {
 
     protected Logger logger = LoggerFactory.getLogger(getClass());
     //protected List<String> tcLog = new ArrayList<String>();
-    protected WebDriver driver;
+    protected SlWebDriver driver;
     protected String testPassName;
 
 

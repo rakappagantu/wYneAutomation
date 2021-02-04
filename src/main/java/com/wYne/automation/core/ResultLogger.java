@@ -1,7 +1,6 @@
 package com.wYne.automation.core;
 
 import com.wYne.automation.config.ConfigManager;
-import com.wYne.automation.general.SlResultEntity;
 import com.wYne.automation.ui.driver.SlWebDriver;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
@@ -17,9 +16,7 @@ import java.util.Calendar;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Created by gaian on 29/7/16.
- */
+
 public class ResultLogger {
 
     protected static Logger logger = LoggerFactory.getLogger(ResultLogger.class);
