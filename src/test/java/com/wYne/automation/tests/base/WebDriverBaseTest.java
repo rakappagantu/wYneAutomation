@@ -244,6 +244,10 @@ public class WebDriverBaseTest {
             browserName = ConfigManager.getBundle().getString("selenium.defaultBrowser");
         capabilities = BrowserCapabilities.getChromeOptions(browserName);
         tempDriver = getDriverObject(capabilities);
+        SlInitSettingsFactory.setDriver(tempDriver);
+        waiting = new Waiting(tempDriver);
+        startedMilliSecs = new Date().getTime();
+        tempDriver.get(ConfigManager.getBundle().getString("env.baseurl"));
 
 
 
@@ -260,6 +264,8 @@ public class WebDriverBaseTest {
 
         logger.debug("********************* TEAR DOWN " + Thread.currentThread().getName() + "*************" + this.getClass().getCanonicalName()+ "********");
         try {
+            SlInitSettingsFactory.getDriver().close();
+            SlInitSettingsFactory.getDriver().quit();
 
         }
         catch(Exception e){

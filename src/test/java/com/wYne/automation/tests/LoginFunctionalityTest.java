@@ -15,6 +15,7 @@ public class LoginFunctionalityTest extends BaseTest {
     @Test
     public void verifyLogin() {
         Loginpage loginpage = new Loginpage();
+        waiting.waitForAjaxToComplete();
         Assert.assertTrue(browserUtils.isElementExists(loginpage.getLogin_button()));
 
     }

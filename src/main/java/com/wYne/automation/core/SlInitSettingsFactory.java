@@ -10,7 +10,7 @@ import java.util.Map;
 
 public class SlInitSettingsFactory {
     protected enum ThreadKeys{
-        DRIVER
+        DRIVER;
     }
 
 
@@ -20,5 +20,19 @@ public class SlInitSettingsFactory {
     public static SlWebDriver getDriver() {
         return (SlWebDriver) threadLocal.get().get(ThreadKeys.DRIVER);
     }
+
+    private static Map<ThreadKeys,Object> setMap(SlWebDriver driver){
+        Map<ThreadKeys,Object> map = new HashMap<ThreadKeys, Object>();
+        map.put(ThreadKeys.DRIVER,driver);
+        return map;
+
+}
+    public static void setDriver(SlWebDriver driver) {
+        threadLocal.set(setMap(driver));
+    }
+
+
+
+
 
 }

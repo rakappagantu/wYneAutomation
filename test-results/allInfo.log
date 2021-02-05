@@ -23,3 +23,37 @@
 2021-02-04 23:29:24 INFO  [main] [LoginFunctionalityTest] - URL: []
 2021-02-04 23:29:50 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://portal-dev-w2s2qhovzq-uw.a.run.app/accounts/login/
 2021-02-04 23:30:07 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-04 23:41:46 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-04 23:41:46 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://portal-dev-w2s2qhovzq-uw.a.run.app/accounts/login/
+2021-02-04 23:41:54 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-05 00:00:26 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-05 00:00:26 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://portal-dev-w2s2qhovzq-uw.a.run.app/accounts/login/
+2021-02-05 00:00:29 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-05 14:01:47 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-05 14:01:47 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://portal-dev-w2s2qhovzq-uw.a.run.app/accounts/login/
+2021-02-05 14:01:55 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-05 14:01:56 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-05 14:01:56 INFO  [main] [LoginFunctionalityTest] - url:https://portal-dev-w2s2qhovzq-uw.a.run.app/accounts/login/
+2021-02-05 14:02:07 INFO  [main] [LoginFunctionalityTest] - In After base class
+2021-02-05 14:10:24 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-05 14:10:24 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://portal-dev-w2s2qhovzq-uw.a.run.app/accounts/login/
+2021-02-05 14:10:39 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-05 14:10:40 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-05 14:10:40 INFO  [main] [LoginFunctionalityTest] - url:https://portal-dev-w2s2qhovzq-uw.a.run.app/accounts/login/
+2021-02-05 14:10:40 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[getTagName], VALUE:[]
+2021-02-05 14:10:40 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[isDisplayed], VALUE:[]
+2021-02-05 14:10:41 INFO  [main] [LoginFunctionalityTest] - In After base class
+2021-02-05 14:11:33 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-05 14:11:33 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://portal-dev-w2s2qhovzq-uw.a.run.app/accounts/login/
+2021-02-05 14:11:41 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-05 14:11:42 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-05 14:11:42 INFO  [main] [LoginFunctionalityTest] - url:https://portal-dev-w2s2qhovzq-uw.a.run.app/accounts/login/
+2021-02-05 14:11:42 INFO  [main] [LoginFunctionalityTest] - In After base class
+2021-02-05 14:22:48 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-05 14:22:48 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://portal-dev-w2s2qhovzq-uw.a.run.app/accounts/login/
+2021-02-05 14:22:56 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-05 14:22:57 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-05 14:22:57 INFO  [main] [LoginFunctionalityTest] - url:https://portal-dev-w2s2qhovzq-uw.a.run.app/accounts/login/
+2021-02-05 14:22:57 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[getTagName], VALUE:[]
+2021-02-05 14:22:57 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[isDisplayed], VALUE:[]
+2021-02-05 14:22:57 INFO  [main] [LoginFunctionalityTest] - In After base class
