@@ -13,7 +13,7 @@ public class LoginFunctionalityTest extends BaseTest {
     }
 
     @Test
-    public void verifyLogin() {
+    public void verifyRecommendations() {
         Loginpage loginpage = new Loginpage();
         waiting.waitForAjaxToComplete();
         Assert.assertTrue(browserUtils.isElementExists(loginpage.getLogin_button()));

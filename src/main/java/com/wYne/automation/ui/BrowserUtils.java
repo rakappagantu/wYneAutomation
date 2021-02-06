@@ -91,7 +91,6 @@ public class BrowserUtils  {
         try {
             elem.getTagName();
             bExists = elem.isDisplayed();
-            //System.out.println("isElementExists method is called ---  elem is found");
         } catch (NoSuchElementException | NullPointerException e) {
             bExists = false;
             //System.out.println("******isElementExists method is called ---  elem is not found");

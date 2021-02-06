@@ -236,7 +236,7 @@ public class Waiting {
 		//SlWebElement processingSpinner = driver.findElement(By.cssSelector(".slc-x-busy"));
 		try{
 			WebDriverWait wait = new WebDriverWait(driver, timeOutInSeconds);
-			wait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector(".slc-x-busy")));
+			wait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector(".spinner-border")));
 		}catch (TimeoutException e){
 			e.printStackTrace();
 			throw new TimeoutException("Spinner taking more time to disappear, waiting for more than : [" + timeOutInSecs * 3 + "] seconds");

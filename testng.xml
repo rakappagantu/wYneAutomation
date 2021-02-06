@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Automation/wYneAutomation">
+        <classes>
+            <class name="com.wYne.automation.tests.FlowerSelectionTest">
+                <methods>
+                    <include name="verifySelectionOfFlowersRecommendations"/>
+                </methods>
+            </class>
+            <class name="com.wYne.automation.tests.FruitSelectionTest">
+                <methods>
+                    <include name="verifySelectionOfFruitRecommendations"/>
+                </methods>
+            </class>
+            <class name="com.wYne.automation.tests.HerbsAndSpicesSelectionTest">
+                <methods>
+                    <include name="verifySelectionOfHerbsRecommendations"/>
+                </methods>
+            </class>
+            <class name="com.wYne.automation.tests.NewFlowerSelectionTest">
+                <methods>
+                    <include name="verifySelectionOfNewFlowersRecommendations"/>
+                </methods>
+            </class>
+            <class name="com.wYne.automation.tests.RecommendationsPageTest">
+                <methods>
+                    <include name="verifySelectionOfNewFlowersRecommendations"/>
+                </methods>
+            </class>
+            <class name="com.wYne.automation.tests.ScentSelectionTest">
+                <methods>
+                    <include name="verifySelectionOfNewFlowersRecommendations"/>
+                </methods>
+            </class>
+            <class name="com.wYne.automation.tests.SelectWyneTest">
+                <methods>
+                    <include name="verifySelectionOfNewFlowersRecommendations"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
