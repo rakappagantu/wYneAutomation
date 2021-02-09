@@ -28,9 +28,10 @@ public class HerbsAndSpicespage extends AbstractDriverBasePage {
         Actions act = new Actions(driver);
         SlWebElement element = null;
         try{
+            waiting.waitForPageToLoad();
+            waiting.waitTillSpinnerDisappears();
             waiting.waitForElementVisible(driver.findElement(By.xpath("//label//img[@alt='"+herbsSelection.getValue().toLowerCase()+"']")));
             element =driver.findElement(By.xpath("//label//img[@alt='"+herbsSelection.getValue().toLowerCase()+"']"));
-            // waiting.waitForElementVisible(element);
             act.moveToElement(element).click().build().perform();
         }
         catch (Exception e)

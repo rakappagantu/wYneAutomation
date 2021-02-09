@@ -42,14 +42,16 @@ public class FlowerSelectionTest extends BaseTest {
         Assert.assertTrue(browserUtils.isElementClickable(herbsAndSpicespage.getNextButton()));
     }
 
-    @Test
+    @Test(alwaysRun = true)
     public void verifySelectionOfFlowersRecommendations() {
         herbsAndSpicespage  = new HerbsAndSpicespage();
         FlowersPage flowersPage = herbsAndSpicespage.moveToFlowerSelectionPage();
         waiting.waitForElementVisible(flowersPage.getBackButon());
         Assert.assertTrue(browserUtils.isElementExists(flowersPage.getBackButon()));
+        waiting.waitTillSpinnerDisappears();
         waiting.waitForAjaxToComplete();
-        flowersPage.selectFlowers(FlowerSelection.JASMINE);
+        waiting.waitForPageToLoad();
+        flowersPage.selectFlowers(FlowerSelection.Honeysuckle);
         Assert.assertTrue(browserUtils.isElementExists(flowersPage.getNextButton()));
 
     }

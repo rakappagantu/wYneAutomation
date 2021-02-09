@@ -60,7 +60,7 @@ public class SelectWyneTest extends BaseTest {
         Assert.assertTrue(browserUtils.isElementExists(scentPage.getNextButton()));
     }
 
-    @Test
+    @Test(alwaysRun = true)
     public void verifySelectionOfNewFlowersRecommendations() {
         scentPage = new ScentPage();
         SelectWyne  selectWyne = scentPage.moveToSelectWynepage();

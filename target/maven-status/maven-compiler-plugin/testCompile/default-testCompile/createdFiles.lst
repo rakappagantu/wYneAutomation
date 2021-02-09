@@ -1,0 +1,11 @@
+com\wYne\automation\tests\HerbsAndSpicesSelectionTest.class
+com\wYne\automation\tests\LoginFunctionalityTest.class
+com\wYne\automation\tests\base\BaseLogger.class
+com\wYne\automation\tests\base\WebDriverBaseTest.class
+com\wYne\automation\tests\base\BaseTest.class
+com\wYne\automation\tests\ScentSelectionTest.class
+com\wYne\automation\tests\FruitSelectionTest.class
+com\wYne\automation\tests\SelectWyneTest.class
+com\wYne\automation\tests\NewFlowerSelectionTest.class
+com\wYne\automation\tests\RecommendationsPageTest.class
+com\wYne\automation\tests\FlowerSelectionTest.class

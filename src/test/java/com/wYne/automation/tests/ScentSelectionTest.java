@@ -55,7 +55,7 @@ public class ScentSelectionTest extends BaseTest {
 
     }
 
-    @Test
+    @Test(alwaysRun = true)
     public void verifySelectionOfNewFlowersRecommendations() {
         newflowersPage = new NewFlowerspage();
         ScentPage scentPage = newflowersPage.moveToScentpage();

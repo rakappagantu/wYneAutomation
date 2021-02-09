@@ -54,12 +54,12 @@ public class StartQuizPage extends AbstractDriverBasePage{
 
     public void selectFruit(FruitSelection flavors)
     {
+        Actions act = new Actions(driver);
         SlWebElement element = null;
         try{
+            waiting.waitForElementVisible(driver.findElement(By.xpath("//img[@alt='"+flavors.getValue().toLowerCase()+"']")));
         element =driver.findElement(By.xpath("//img[@alt='"+flavors.getValue().toLowerCase()+"']"));
-            // driver.findElement(By.xpath("//div[@ng-reflect-name='answer']/p[text()='"+flavors.getValue().toLowerCase()+"']"));
-            //img[@alt='apple']
-        element.click();
+            act.moveToElement(element).click().build().perform();
     }
     catch (Exception e)
     {

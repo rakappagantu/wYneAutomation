@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]">
+  <test name="C:/Automation/wYneAutomation(failed)">
+    <classes>
+      <class name="com.wYne.automation.tests.ScentSelectionTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="afterMethodBase"/>
+          <include name="verifySelectionOfNewFlowersRecommendations"/>
+        </methods>
+      </class> <!-- com.wYne.automation.tests.ScentSelectionTest -->
+      <class name="com.wYne.automation.tests.NewFlowerSelectionTest">
+        <methods>
+          <include name="baseLoggerBeforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="verifySelectionOfNewFlowersRecommendations"/>
+          <include name="baseBeforeClass"/>
+          <include name="baseBeforeMethod"/>
+          <include name="setupClass"/>
+          <include name="tearDown"/>
+          <include name="afterMethodBase"/>
+        </methods>
+      </class> <!-- com.wYne.automation.tests.NewFlowerSelectionTest -->
+      <class name="com.wYne.automation.tests.FruitSelectionTest">
+        <methods>
+          <include name="baseLoggerBeforeClass"/>
+          <include name="baseBeforeClass"/>
+          <include name="baseBeforeMethod"/>
+          <include name="setupClass"/>
+          <include name="baseTestAfterClass"/>
+          <include name="tearDown"/>
+          <include name="afterMethodBase"/>
+        </methods>
+      </class> <!-- com.wYne.automation.tests.FruitSelectionTest -->
+      <class name="com.wYne.automation.tests.RecommendationsPageTest">
+        <methods>
+          <include name="verifySelectionOfNewFlowersRecommendations"/>
+          <include name="tearDown"/>
+          <include name="afterMethodBase"/>
+        </methods>
+      </class> <!-- com.wYne.automation.tests.RecommendationsPageTest -->
+      <class name="com.wYne.automation.tests.FlowerSelectionTest">
+        <methods>
+          <include name="baseLoggerBeforeClass"/>
+          <include name="baseBeforeClass"/>
+          <include name="baseBeforeMethod"/>
+          <include name="setupClass"/>
+          <include name="baseTestAfterClass"/>
+          <include name="tearDown"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethodBase"/>
+        </methods>
+      </class> <!-- com.wYne.automation.tests.FlowerSelectionTest -->
+      <class name="com.wYne.automation.tests.HerbsAndSpicesSelectionTest">
+        <methods>
+          <include name="baseLoggerBeforeClass"/>
+          <include name="baseBeforeClass"/>
+          <include name="baseBeforeMethod"/>
+          <include name="setupClass"/>
+          <include name="baseTestAfterClass"/>
+          <include name="tearDown"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethodBase"/>
+        </methods>
+      </class> <!-- com.wYne.automation.tests.HerbsAndSpicesSelectionTest -->
+      <class name="com.wYne.automation.tests.SelectWyneTest">
+        <methods>
+          <include name="verifySelectionOfNewFlowersRecommendations"/>
+          <include name="tearDown"/>
+          <include name="afterMethodBase"/>
+        </methods>
+      </class> <!-- com.wYne.automation.tests.SelectWyneTest -->
+    </classes>
+  </test> <!-- C:/Automation/wYneAutomation(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

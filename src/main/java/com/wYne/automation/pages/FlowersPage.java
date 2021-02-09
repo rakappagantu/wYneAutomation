@@ -4,10 +4,11 @@ import com.wYne.automation.dataTypes.FlowerSelection;
 import com.wYne.automation.ui.core.Waiting;
 import com.wYne.automation.ui.elements.SlWebElement;
 import org.openqa.selenium.By;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 
-public class FlowersPage extends AbstractDriverBasePage{
+public class FlowersPage extends AbstractDriverBasePage {
     public SlWebElement getNextButton() {
         return nextButton;
     }
@@ -22,19 +23,20 @@ public class FlowersPage extends AbstractDriverBasePage{
     @FindBy(xpath = "//span[text()='Back']")
     private SlWebElement backButon;
 
-    public void selectFlowers(FlowerSelection flowerSelection)
-    {
+    public void selectFlowers(FlowerSelection flowerSelection) {
+        Actions act = new Actions(driver);
         SlWebElement element = null;
-        try{
-            waiting.waitForElementVisible(driver.findElement(By.xpath("//img[@alt='"+flowerSelection.getValue().toLowerCase()+"']")));
-            element =driver.findElement(By.xpath("//img[@alt='"+flowerSelection.getValue().toLowerCase()+"']"));
-            element.click();
-        }
-        catch (Exception e)
-        {
-            Assert.fail("Excetion occured in "+this.getClass(),e);
+        try {
+            waiting.waitForPageToLoad();
+            waiting.waitTillSpinnerDisappears();
+            waiting.waitForElementVisible(driver.findElement(By.xpath("//img[@alt='" + flowerSelection.getValue().toLowerCase() + "']")));
+            element = driver.findElement(By.xpath("//img[@alt='" + flowerSelection.getValue().toLowerCase() + "']"));
+            act.moveToElement(element).click().build().perform();
+        } catch (Exception e) {
+            Assert.fail("Excetion occured in " + this.getClass(), e);
         }
     }
+
     public NewFlowerspage moveToNewFlowerspage() {
         try {
             if (utils.isElementClickable(this.getNextButton())) {
@@ -46,7 +48,7 @@ public class FlowersPage extends AbstractDriverBasePage{
 
 
         } catch (Exception e) {
-            Assert.fail("Excetion occured in "+this.getClass(),e);
+            Assert.fail("Excetion occured in " + this.getClass(), e);
         }
 
         return new NewFlowerspage();

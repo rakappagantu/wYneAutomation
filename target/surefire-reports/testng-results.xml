@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="8" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="216320" started-at="2021-02-09T04:31:12Z" finished-at="2021-02-09T04:34:48Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="216320" started-at="2021-02-09T04:31:12Z" finished-at="2021-02-09T04:34:48Z">
+      <class name="com.wYne.automation.tests.ScentSelectionTest">
+        <test-method status="PASS" signature="setupClass(java.lang.String)[pri:0, instance:com.wYne.automation.tests.ScentSelectionTest@78186a70]" name="setupClass" is-config="true" duration-ms="12421" started-at="2021-02-09T10:03:50Z" finished-at="2021-02-09T10:04:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method status="PASS" signature="baseLoggerBeforeClass()[pri:0, instance:com.wYne.automation.tests.ScentSelectionTest@78186a70]" name="baseLoggerBeforeClass" is-config="true" duration-ms="0" started-at="2021-02-09T10:04:03Z" finished-at="2021-02-09T10:04:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseLoggerBeforeClass -->
+        <test-method status="PASS" signature="baseBeforeClass()[pri:0, instance:com.wYne.automation.tests.ScentSelectionTest@78186a70]" name="baseBeforeClass" is-config="true" duration-ms="1128" started-at="2021-02-09T10:04:03Z" finished-at="2021-02-09T10:04:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseBeforeClass -->
+        <test-method status="PASS" signature="baseBeforeMethod(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.wYne.automation.tests.ScentSelectionTest@78186a70]" name="baseBeforeMethod" is-config="true" duration-ms="1" started-at="2021-02-09T10:04:04Z" finished-at="2021-02-09T10:04:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wYne.automation.tests.ScentSelectionTest.verifySelectionOfNewFlowersRecommendations()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@17a1e4ca]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseBeforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.wYne.automation.tests.ScentSelectionTest@78186a70]" name="beforeMethod" is-config="true" duration-ms="9516" started-at="2021-02-09T10:04:04Z" finished-at="2021-02-09T10:04:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifySelectionOfNewFlowersRecommendations()[pri:0, instance:com.wYne.automation.tests.ScentSelectionTest@78186a70]" name="verifySelectionOfNewFlowersRecommendations" duration-ms="2671" started-at="2021-02-09T10:04:14Z" finished-at="2021-02-09T10:04:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectionOfNewFlowersRecommendations -->
+        <test-method status="PASS" signature="baseTestAfterClass()[pri:0, instance:com.wYne.automation.tests.ScentSelectionTest@78186a70]" name="baseTestAfterClass" is-config="true" duration-ms="1" started-at="2021-02-09T10:04:16Z" finished-at="2021-02-09T10:04:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseTestAfterClass -->
+        <test-method status="PASS" signature="afterMethodBase(org.testng.ITestResult, [Ljava.lang.Object;)[pri:0, instance:com.wYne.automation.tests.ScentSelectionTest@78186a70]" name="afterMethodBase" is-config="true" duration-ms="0" started-at="2021-02-09T10:04:16Z" finished-at="2021-02-09T10:04:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySelectionOfNewFlowersRecommendations status=SUCCESS method=ScentSelectionTest.verifySelectionOfNewFlowersRecommendations()[pri:0, instance:com.wYne.automation.tests.ScentSelectionTest@78186a70] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@17a1e4ca]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodBase -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wYne.automation.tests.ScentSelectionTest@78186a70]" name="tearDown" is-config="true" duration-ms="922" started-at="2021-02-09T10:04:16Z" finished-at="2021-02-09T10:04:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.wYne.automation.tests.ScentSelectionTest -->
+      <class name="com.wYne.automation.tests.LoginFunctionalityTest">
+        <test-method status="PASS" signature="setupClass(java.lang.String)[pri:0, instance:com.wYne.automation.tests.LoginFunctionalityTest@4cf4d528]" name="setupClass" is-config="true" duration-ms="10993" started-at="2021-02-09T10:02:25Z" finished-at="2021-02-09T10:02:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method status="PASS" signature="baseBeforeClass()[pri:0, instance:com.wYne.automation.tests.LoginFunctionalityTest@4cf4d528]" name="baseBeforeClass" is-config="true" duration-ms="1500" started-at="2021-02-09T10:02:36Z" finished-at="2021-02-09T10:02:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseBeforeClass -->
+        <test-method status="PASS" signature="baseLoggerBeforeClass()[pri:0, instance:com.wYne.automation.tests.LoginFunctionalityTest@4cf4d528]" name="baseLoggerBeforeClass" is-config="true" duration-ms="0" started-at="2021-02-09T10:02:36Z" finished-at="2021-02-09T10:02:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseLoggerBeforeClass -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.wYne.automation.tests.LoginFunctionalityTest@4cf4d528]" name="beforeClass" is-config="true" duration-ms="0" started-at="2021-02-09T10:02:38Z" finished-at="2021-02-09T10:02:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="verifyRecommendations()[pri:0, instance:com.wYne.automation.tests.LoginFunctionalityTest@4cf4d528]" name="verifyRecommendations" duration-ms="10963" started-at="2021-02-09T10:02:38Z" finished-at="2021-02-09T10:02:49Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.wYne.automation.tests.LoginFunctionalityTest.verifyRecommendations(LoginFunctionalityTest.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRecommendations -->
+        <test-method status="PASS" signature="baseBeforeMethod(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.wYne.automation.tests.LoginFunctionalityTest@4cf4d528]" name="baseBeforeMethod" is-config="true" duration-ms="0" started-at="2021-02-09T10:02:38Z" finished-at="2021-02-09T10:02:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wYne.automation.tests.LoginFunctionalityTest.verifyRecommendations()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@4a194c39]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseBeforeMethod -->
+        <test-method status="PASS" signature="baseTestAfterClass()[pri:0, instance:com.wYne.automation.tests.LoginFunctionalityTest@4cf4d528]" name="baseTestAfterClass" is-config="true" duration-ms="3" started-at="2021-02-09T10:02:49Z" finished-at="2021-02-09T10:02:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseTestAfterClass -->
+        <test-method status="PASS" signature="afterMethodBase(org.testng.ITestResult, [Ljava.lang.Object;)[pri:0, instance:com.wYne.automation.tests.LoginFunctionalityTest@4cf4d528]" name="afterMethodBase" is-config="true" duration-ms="0" started-at="2021-02-09T10:02:49Z" finished-at="2021-02-09T10:02:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyRecommendations status=FAILURE method=LoginFunctionalityTest.verifyRecommendations()[pri:0, instance:com.wYne.automation.tests.LoginFunctionalityTest@4cf4d528] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@4a194c39]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodBase -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wYne.automation.tests.LoginFunctionalityTest@4cf4d528]" name="tearDown" is-config="true" duration-ms="2777" started-at="2021-02-09T10:02:49Z" finished-at="2021-02-09T10:02:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.wYne.automation.tests.LoginFunctionalityTest -->
+      <class name="com.wYne.automation.tests.SelectWyneTest">
+        <test-method status="PASS" signature="setupClass(java.lang.String)[pri:0, instance:com.wYne.automation.tests.SelectWyneTest@24a35978]" name="setupClass" is-config="true" duration-ms="12823" started-at="2021-02-09T10:04:17Z" finished-at="2021-02-09T10:04:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method status="PASS" signature="baseBeforeClass()[pri:0, instance:com.wYne.automation.tests.SelectWyneTest@24a35978]" name="baseBeforeClass" is-config="true" duration-ms="1462" started-at="2021-02-09T10:04:30Z" finished-at="2021-02-09T10:04:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseBeforeClass -->
+        <test-method status="PASS" signature="baseLoggerBeforeClass()[pri:0, instance:com.wYne.automation.tests.SelectWyneTest@24a35978]" name="baseLoggerBeforeClass" is-config="true" duration-ms="0" started-at="2021-02-09T10:04:30Z" finished-at="2021-02-09T10:04:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseLoggerBeforeClass -->
+        <test-method status="PASS" signature="baseBeforeMethod(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.wYne.automation.tests.SelectWyneTest@24a35978]" name="baseBeforeMethod" is-config="true" duration-ms="0" started-at="2021-02-09T10:04:31Z" finished-at="2021-02-09T10:04:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wYne.automation.tests.SelectWyneTest.verifySelectionOfNewFlowersRecommendations()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@52066604]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseBeforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.wYne.automation.tests.SelectWyneTest@24a35978]" name="beforeMethod" is-config="true" duration-ms="12526" started-at="2021-02-09T10:04:31Z" finished-at="2021-02-09T10:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifySelectionOfNewFlowersRecommendations()[pri:0, instance:com.wYne.automation.tests.SelectWyneTest@24a35978]" name="verifySelectionOfNewFlowersRecommendations" duration-ms="2649" started-at="2021-02-09T10:04:44Z" finished-at="2021-02-09T10:04:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectionOfNewFlowersRecommendations -->
+        <test-method status="PASS" signature="afterMethodBase(org.testng.ITestResult, [Ljava.lang.Object;)[pri:0, instance:com.wYne.automation.tests.SelectWyneTest@24a35978]" name="afterMethodBase" is-config="true" duration-ms="1" started-at="2021-02-09T10:04:47Z" finished-at="2021-02-09T10:04:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySelectionOfNewFlowersRecommendations status=SUCCESS method=SelectWyneTest.verifySelectionOfNewFlowersRecommendations()[pri:0, instance:com.wYne.automation.tests.SelectWyneTest@24a35978] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@52066604]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodBase -->
+        <test-method status="PASS" signature="baseTestAfterClass()[pri:0, instance:com.wYne.automation.tests.SelectWyneTest@24a35978]" name="baseTestAfterClass" is-config="true" duration-ms="0" started-at="2021-02-09T10:04:47Z" finished-at="2021-02-09T10:04:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseTestAfterClass -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wYne.automation.tests.SelectWyneTest@24a35978]" name="tearDown" is-config="true" duration-ms="1360" started-at="2021-02-09T10:04:47Z" finished-at="2021-02-09T10:04:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.wYne.automation.tests.SelectWyneTest -->
+      <class name="com.wYne.automation.tests.FlowerSelectionTest">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.wYne.automation.tests.FlowerSelectionTest@4524411f]" name="beforeSuite" is-config="true" duration-ms="370" started-at="2021-02-09T10:01:11Z" finished-at="2021-02-09T10:01:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="setupClass(java.lang.String)[pri:0, instance:com.wYne.automation.tests.FlowerSelectionTest@4524411f]" name="setupClass" is-config="true" duration-ms="21360" started-at="2021-02-09T10:01:12Z" finished-at="2021-02-09T10:01:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method status="PASS" signature="baseLoggerBeforeClass()[pri:0, instance:com.wYne.automation.tests.FlowerSelectionTest@4524411f]" name="baseLoggerBeforeClass" is-config="true" duration-ms="1" started-at="2021-02-09T10:01:33Z" finished-at="2021-02-09T10:01:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseLoggerBeforeClass -->
+        <test-method status="PASS" signature="baseBeforeClass()[pri:0, instance:com.wYne.automation.tests.FlowerSelectionTest@4524411f]" name="baseBeforeClass" is-config="true" duration-ms="2366" started-at="2021-02-09T10:01:33Z" finished-at="2021-02-09T10:01:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseBeforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.wYne.automation.tests.FlowerSelectionTest@4524411f]" name="beforeMethod" is-config="true" duration-ms="8643" started-at="2021-02-09T10:01:35Z" finished-at="2021-02-09T10:01:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="baseBeforeMethod(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.wYne.automation.tests.FlowerSelectionTest@4524411f]" name="baseBeforeMethod" is-config="true" duration-ms="0" started-at="2021-02-09T10:01:35Z" finished-at="2021-02-09T10:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wYne.automation.tests.FlowerSelectionTest.verifySelectionOfFlowersRecommendations()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@340b9973]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseBeforeMethod -->
+        <test-method status="PASS" signature="verifySelectionOfFlowersRecommendations()[pri:0, instance:com.wYne.automation.tests.FlowerSelectionTest@4524411f]" name="verifySelectionOfFlowersRecommendations" duration-ms="1135" started-at="2021-02-09T10:01:44Z" finished-at="2021-02-09T10:01:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectionOfFlowersRecommendations -->
+        <test-method status="PASS" signature="afterMethodBase(org.testng.ITestResult, [Ljava.lang.Object;)[pri:0, instance:com.wYne.automation.tests.FlowerSelectionTest@4524411f]" name="afterMethodBase" is-config="true" duration-ms="0" started-at="2021-02-09T10:01:45Z" finished-at="2021-02-09T10:01:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySelectionOfFlowersRecommendations status=SUCCESS method=FlowerSelectionTest.verifySelectionOfFlowersRecommendations()[pri:0, instance:com.wYne.automation.tests.FlowerSelectionTest@4524411f] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@340b9973]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodBase -->
+        <test-method status="PASS" signature="baseTestAfterClass()[pri:0, instance:com.wYne.automation.tests.FlowerSelectionTest@4524411f]" name="baseTestAfterClass" is-config="true" duration-ms="1" started-at="2021-02-09T10:01:45Z" finished-at="2021-02-09T10:01:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseTestAfterClass -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wYne.automation.tests.FlowerSelectionTest@4524411f]" name="tearDown" is-config="true" duration-ms="1080" started-at="2021-02-09T10:01:45Z" finished-at="2021-02-09T10:01:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.wYne.automation.tests.FlowerSelectionTest -->
+      <class name="com.wYne.automation.tests.NewFlowerSelectionTest">
+        <test-method status="PASS" signature="setupClass(java.lang.String)[pri:0, instance:com.wYne.automation.tests.NewFlowerSelectionTest@376b4233]" name="setupClass" is-config="true" duration-ms="12271" started-at="2021-02-09T10:02:52Z" finished-at="2021-02-09T10:03:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method status="PASS" signature="baseBeforeClass()[pri:0, instance:com.wYne.automation.tests.NewFlowerSelectionTest@376b4233]" name="baseBeforeClass" is-config="true" duration-ms="1500" started-at="2021-02-09T10:03:04Z" finished-at="2021-02-09T10:03:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseBeforeClass -->
+        <test-method status="PASS" signature="baseLoggerBeforeClass()[pri:0, instance:com.wYne.automation.tests.NewFlowerSelectionTest@376b4233]" name="baseLoggerBeforeClass" is-config="true" duration-ms="0" started-at="2021-02-09T10:03:04Z" finished-at="2021-02-09T10:03:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseLoggerBeforeClass -->
+        <test-method status="PASS" signature="baseBeforeMethod(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.wYne.automation.tests.NewFlowerSelectionTest@376b4233]" name="baseBeforeMethod" is-config="true" duration-ms="0" started-at="2021-02-09T10:03:05Z" finished-at="2021-02-09T10:03:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wYne.automation.tests.NewFlowerSelectionTest.verifySelectionOfNewFlowersRecommendations()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@56113384]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseBeforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.wYne.automation.tests.NewFlowerSelectionTest@376b4233]" name="beforeMethod" is-config="true" duration-ms="7905" started-at="2021-02-09T10:03:05Z" finished-at="2021-02-09T10:03:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifySelectionOfNewFlowersRecommendations()[pri:0, instance:com.wYne.automation.tests.NewFlowerSelectionTest@376b4233]" name="verifySelectionOfNewFlowersRecommendations" duration-ms="1180" started-at="2021-02-09T10:03:13Z" finished-at="2021-02-09T10:03:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectionOfNewFlowersRecommendations -->
+        <test-method status="PASS" signature="afterMethodBase(org.testng.ITestResult, [Ljava.lang.Object;)[pri:0, instance:com.wYne.automation.tests.NewFlowerSelectionTest@376b4233]" name="afterMethodBase" is-config="true" duration-ms="0" started-at="2021-02-09T10:03:15Z" finished-at="2021-02-09T10:03:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySelectionOfNewFlowersRecommendations status=SUCCESS method=NewFlowerSelectionTest.verifySelectionOfNewFlowersRecommendations()[pri:0, instance:com.wYne.automation.tests.NewFlowerSelectionTest@376b4233] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@56113384]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodBase -->
+        <test-method status="PASS" signature="baseTestAfterClass()[pri:0, instance:com.wYne.automation.tests.NewFlowerSelectionTest@376b4233]" name="baseTestAfterClass" is-config="true" duration-ms="1" started-at="2021-02-09T10:03:15Z" finished-at="2021-02-09T10:03:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseTestAfterClass -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wYne.automation.tests.NewFlowerSelectionTest@376b4233]" name="tearDown" is-config="true" duration-ms="806" started-at="2021-02-09T10:03:15Z" finished-at="2021-02-09T10:03:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.wYne.automation.tests.NewFlowerSelectionTest -->
+      <class name="com.wYne.automation.tests.FruitSelectionTest">
+        <test-method status="PASS" signature="setupClass(java.lang.String)[pri:0, instance:com.wYne.automation.tests.FruitSelectionTest@319b92f3]" name="setupClass" is-config="true" duration-ms="12097" started-at="2021-02-09T10:01:46Z" finished-at="2021-02-09T10:01:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method status="PASS" signature="baseLoggerBeforeClass()[pri:0, instance:com.wYne.automation.tests.FruitSelectionTest@319b92f3]" name="baseLoggerBeforeClass" is-config="true" duration-ms="1" started-at="2021-02-09T10:01:58Z" finished-at="2021-02-09T10:01:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseLoggerBeforeClass -->
+        <test-method status="PASS" signature="baseBeforeClass()[pri:0, instance:com.wYne.automation.tests.FruitSelectionTest@319b92f3]" name="baseBeforeClass" is-config="true" duration-ms="1006" started-at="2021-02-09T10:01:58Z" finished-at="2021-02-09T10:01:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseBeforeClass -->
+        <test-method status="PASS" signature="verifySelectionOfFruitRecommendations()[pri:0, instance:com.wYne.automation.tests.FruitSelectionTest@319b92f3]" name="verifySelectionOfFruitRecommendations" duration-ms="3407" started-at="2021-02-09T10:01:59Z" finished-at="2021-02-09T10:02:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectionOfFruitRecommendations -->
+        <test-method status="PASS" signature="baseBeforeMethod(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.wYne.automation.tests.FruitSelectionTest@319b92f3]" name="baseBeforeMethod" is-config="true" duration-ms="0" started-at="2021-02-09T10:01:59Z" finished-at="2021-02-09T10:01:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wYne.automation.tests.FruitSelectionTest.verifySelectionOfFruitRecommendations()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@5669c5fb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseBeforeMethod -->
+        <test-method status="PASS" signature="afterMethodBase(org.testng.ITestResult, [Ljava.lang.Object;)[pri:0, instance:com.wYne.automation.tests.FruitSelectionTest@319b92f3]" name="afterMethodBase" is-config="true" duration-ms="1" started-at="2021-02-09T10:02:03Z" finished-at="2021-02-09T10:02:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySelectionOfFruitRecommendations status=SUCCESS method=FruitSelectionTest.verifySelectionOfFruitRecommendations()[pri:0, instance:com.wYne.automation.tests.FruitSelectionTest@319b92f3] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@5669c5fb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodBase -->
+        <test-method status="PASS" signature="baseTestAfterClass()[pri:0, instance:com.wYne.automation.tests.FruitSelectionTest@319b92f3]" name="baseTestAfterClass" is-config="true" duration-ms="0" started-at="2021-02-09T10:02:03Z" finished-at="2021-02-09T10:02:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseTestAfterClass -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wYne.automation.tests.FruitSelectionTest@319b92f3]" name="tearDown" is-config="true" duration-ms="2825" started-at="2021-02-09T10:02:03Z" finished-at="2021-02-09T10:02:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.wYne.automation.tests.FruitSelectionTest -->
+      <class name="com.wYne.automation.tests.RecommendationsPageTest">
+        <test-method status="PASS" signature="setupClass(java.lang.String)[pri:0, instance:com.wYne.automation.tests.RecommendationsPageTest@149494d8]" name="setupClass" is-config="true" duration-ms="13621" started-at="2021-02-09T10:03:15Z" finished-at="2021-02-09T10:03:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method status="PASS" signature="baseBeforeClass()[pri:0, instance:com.wYne.automation.tests.RecommendationsPageTest@149494d8]" name="baseBeforeClass" is-config="true" duration-ms="1197" started-at="2021-02-09T10:03:29Z" finished-at="2021-02-09T10:03:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseBeforeClass -->
+        <test-method status="PASS" signature="baseLoggerBeforeClass()[pri:0, instance:com.wYne.automation.tests.RecommendationsPageTest@149494d8]" name="baseLoggerBeforeClass" is-config="true" duration-ms="0" started-at="2021-02-09T10:03:29Z" finished-at="2021-02-09T10:03:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseLoggerBeforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.wYne.automation.tests.RecommendationsPageTest@149494d8]" name="beforeMethod" is-config="true" duration-ms="15452" started-at="2021-02-09T10:03:30Z" finished-at="2021-02-09T10:03:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="baseBeforeMethod(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.wYne.automation.tests.RecommendationsPageTest@149494d8]" name="baseBeforeMethod" is-config="true" duration-ms="0" started-at="2021-02-09T10:03:30Z" finished-at="2021-02-09T10:03:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wYne.automation.tests.RecommendationsPageTest.verifySelectionOfNewFlowersRecommendations()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@373ebf74]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseBeforeMethod -->
+        <test-method status="PASS" signature="verifySelectionOfNewFlowersRecommendations()[pri:0, instance:com.wYne.automation.tests.RecommendationsPageTest@149494d8]" name="verifySelectionOfNewFlowersRecommendations" duration-ms="2050" started-at="2021-02-09T10:03:46Z" finished-at="2021-02-09T10:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectionOfNewFlowersRecommendations -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wYne.automation.tests.RecommendationsPageTest@149494d8]" name="tearDown" is-config="true" duration-ms="2802" started-at="2021-02-09T10:03:48Z" finished-at="2021-02-09T10:03:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterMethodBase(org.testng.ITestResult, [Ljava.lang.Object;)[pri:0, instance:com.wYne.automation.tests.RecommendationsPageTest@149494d8]" name="afterMethodBase" is-config="true" duration-ms="0" started-at="2021-02-09T10:03:48Z" finished-at="2021-02-09T10:03:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySelectionOfNewFlowersRecommendations status=SUCCESS method=RecommendationsPageTest.verifySelectionOfNewFlowersRecommendations()[pri:0, instance:com.wYne.automation.tests.RecommendationsPageTest@149494d8] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@373ebf74]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodBase -->
+        <test-method status="PASS" signature="baseTestAfterClass()[pri:0, instance:com.wYne.automation.tests.RecommendationsPageTest@149494d8]" name="baseTestAfterClass" is-config="true" duration-ms="0" started-at="2021-02-09T10:03:48Z" finished-at="2021-02-09T10:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseTestAfterClass -->
+      </class> <!-- com.wYne.automation.tests.RecommendationsPageTest -->
+      <class name="com.wYne.automation.tests.HerbsAndSpicesSelectionTest">
+        <test-method status="PASS" signature="setupClass(java.lang.String)[pri:0, instance:com.wYne.automation.tests.HerbsAndSpicesSelectionTest@2641e737]" name="setupClass" is-config="true" duration-ms="10678" started-at="2021-02-09T10:02:06Z" finished-at="2021-02-09T10:02:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method status="PASS" signature="baseLoggerBeforeClass()[pri:0, instance:com.wYne.automation.tests.HerbsAndSpicesSelectionTest@2641e737]" name="baseLoggerBeforeClass" is-config="true" duration-ms="0" started-at="2021-02-09T10:02:16Z" finished-at="2021-02-09T10:02:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseLoggerBeforeClass -->
+        <test-method status="PASS" signature="baseBeforeClass()[pri:0, instance:com.wYne.automation.tests.HerbsAndSpicesSelectionTest@2641e737]" name="baseBeforeClass" is-config="true" duration-ms="1351" started-at="2021-02-09T10:02:16Z" finished-at="2021-02-09T10:02:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseBeforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.wYne.automation.tests.HerbsAndSpicesSelectionTest@2641e737]" name="beforeMethod" is-config="true" duration-ms="4081" started-at="2021-02-09T10:02:18Z" finished-at="2021-02-09T10:02:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="baseBeforeMethod(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.wYne.automation.tests.HerbsAndSpicesSelectionTest@2641e737]" name="baseBeforeMethod" is-config="true" duration-ms="0" started-at="2021-02-09T10:02:18Z" finished-at="2021-02-09T10:02:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wYne.automation.tests.HerbsAndSpicesSelectionTest.verifySelectionOfHerbsRecommendations()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@5f9678e1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseBeforeMethod -->
+        <test-method status="PASS" signature="verifySelectionOfHerbsRecommendations()[pri:0, instance:com.wYne.automation.tests.HerbsAndSpicesSelectionTest@2641e737]" name="verifySelectionOfHerbsRecommendations" duration-ms="2935" started-at="2021-02-09T10:02:22Z" finished-at="2021-02-09T10:02:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectionOfHerbsRecommendations -->
+        <test-method status="PASS" signature="afterMethodBase(org.testng.ITestResult, [Ljava.lang.Object;)[pri:0, instance:com.wYne.automation.tests.HerbsAndSpicesSelectionTest@2641e737]" name="afterMethodBase" is-config="true" duration-ms="0" started-at="2021-02-09T10:02:25Z" finished-at="2021-02-09T10:02:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySelectionOfHerbsRecommendations status=SUCCESS method=HerbsAndSpicesSelectionTest.verifySelectionOfHerbsRecommendations()[pri:0, instance:com.wYne.automation.tests.HerbsAndSpicesSelectionTest@2641e737] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@5f9678e1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodBase -->
+        <test-method status="PASS" signature="baseTestAfterClass()[pri:0, instance:com.wYne.automation.tests.HerbsAndSpicesSelectionTest@2641e737]" name="baseTestAfterClass" is-config="true" duration-ms="0" started-at="2021-02-09T10:02:25Z" finished-at="2021-02-09T10:02:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseTestAfterClass -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wYne.automation.tests.HerbsAndSpicesSelectionTest@2641e737]" name="tearDown" is-config="true" duration-ms="829" started-at="2021-02-09T10:02:25Z" finished-at="2021-02-09T10:02:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.wYne.automation.tests.HerbsAndSpicesSelectionTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

@@ -48,7 +48,7 @@ public class NewFlowerSelectionTest extends BaseTest {
         Assert.assertTrue(browserUtils.isElementExists(flowersPage.getNextButton()));
     }
 
-    @Test
+    @Test(alwaysRun = true)
     public void verifySelectionOfNewFlowersRecommendations() {
         flowersPage = new FlowersPage();
         NewFlowerspage newFlowerspage = flowersPage.moveToNewFlowerspage();

@@ -255,7 +255,7 @@ public class WebDriverBaseTest {
     @AfterMethod(alwaysRun = true)
     public void afterMethodBase(ITestResult result, Object[] testArgs) {
 
-
+        SlInitSettingsFactory.getDriver().close();
     }
 
     @AfterClass(alwaysRun = true)
@@ -264,7 +264,7 @@ public class WebDriverBaseTest {
 
         logger.debug("********************* TEAR DOWN " + Thread.currentThread().getName() + "*************" + this.getClass().getCanonicalName()+ "********");
         try {
-            SlInitSettingsFactory.getDriver().close();
+
             SlInitSettingsFactory.getDriver().quit();
 
         }

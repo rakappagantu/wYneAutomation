@@ -67,7 +67,7 @@ public class RecommendationsPageTest extends BaseTest {
         Assert.assertTrue(browserUtils.isElementExists(selectWyne.getNextButton()));
     }
 
-    @Test
+    @Test(alwaysRun = true)
     public void verifySelectionOfNewFlowersRecommendations() {
         selectWyne = new SelectWyne();
         RecommendationsPage recommendationsPage  = selectWyne.moveToRecommendationsPage();

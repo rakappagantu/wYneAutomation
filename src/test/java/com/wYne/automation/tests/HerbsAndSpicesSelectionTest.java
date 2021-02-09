@@ -30,7 +30,7 @@ public class HerbsAndSpicesSelectionTest extends BaseTest {
     }
 
 
-    @Test
+    @Test(alwaysRun = true)
     public void verifySelectionOfHerbsRecommendations() {
         fruitFlavorsPage  = new FruitFlavorsPage();
         HerbsAndSpicespage herbsAndSpicespage = fruitFlavorsPage.moveToHerbsAndSpicePage();

@@ -5,6 +5,7 @@ import com.wYne.automation.dataTypes.NewFlowerSelection;
 import com.wYne.automation.ui.core.Waiting;
 import com.wYne.automation.ui.elements.SlWebElement;
 import org.openqa.selenium.By;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 
@@ -24,11 +25,14 @@ public class NewFlowerspage extends AbstractDriverBasePage {
     private SlWebElement backButon;
 
     public void selectFlowers(NewFlowerSelection newflowerSelection) {
+        Actions act = new Actions(driver);
         SlWebElement element = null;
         try {
+            waiting.waitForPageToLoad();
+            waiting.waitTillSpinnerDisappears();
             waiting.waitForElementVisible(driver.findElement(By.xpath("//img[@alt='" + newflowerSelection.getValue().toLowerCase() + "']")));
             element = driver.findElement(By.xpath("//img[@alt='" + newflowerSelection.getValue().toLowerCase() + "']"));
-            element.click();
+            act.moveToElement(element).click().build().perform();
         } catch (Exception e) {
             Assert.fail("Excetion occured in " + this.getClass(), e);
 
