@@ -20,8 +20,8 @@ public class GenerateTestNg {
     private Document doc = null;
 
     /**
-     * Method will get test classes and test cases to be added in testng.xml file by calling relative method.
-     * Creates testng.xml file by calling relative method.
+     * Method will get test classes and test cases to be added in testng_AnonymousUser.xml file by calling relative method.
+     * Creates testng_AnonymousUser.xml file by calling relative method.
      */
     public static void main(String args[]) {
         Map<String, List<String>> testClassesAndTestCasesToExecute = new HashMap<>();
@@ -43,9 +43,9 @@ public class GenerateTestNg {
     }
 
     /**
-     * Method will create testng.xml file.
+     * Method will create testng_AnonymousUser.xml file.
      * passing extra params
-     * @param testClassesAndTestCasesToExecute to be added in testng.xml file.
+     * @param testClassesAndTestCasesToExecute to be added in testng_AnonymousUser.xml file.
      */
     public void createTestNg(Map<String, List<String>> testClassesAndTestCasesToExecute,String name,
                              String testrun,String parallelType,String threadCount,String filePath,Map<String,String> params){
@@ -97,7 +97,7 @@ public class GenerateTestNg {
             if(filePath!=null&&filePath!="")
                 result =new StreamResult(new File(filePath));
             else
-                result = new StreamResult(new File("testng.xml"));
+                result = new StreamResult(new File("testng_AnonymousUser.xml"));
 
             transformer.transform(source, result);
             //System.out.println("File saved!");

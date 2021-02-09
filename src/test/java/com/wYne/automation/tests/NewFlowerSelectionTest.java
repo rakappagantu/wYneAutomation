@@ -16,7 +16,7 @@ public class NewFlowerSelectionTest extends BaseTest {
     protected HerbsAndSpicespage herbsAndSpicespage;
     protected FlowersPage flowersPage;
 
-    @BeforeMethod()
+    @BeforeMethod(alwaysRun = true)
     public void beforeMethod() throws Exception {
         startQuizPage = new StartQuizPage();
         waiting.waitTillSpinnerDisappears();
@@ -48,7 +48,7 @@ public class NewFlowerSelectionTest extends BaseTest {
         Assert.assertTrue(browserUtils.isElementExists(flowersPage.getNextButton()));
     }
 
-    @Test(alwaysRun = true)
+    @Test(alwaysRun = true,groups = { "AnonymousUserRecommendations" })
     public void verifySelectionOfNewFlowersRecommendations() {
         flowersPage = new FlowersPage();
         NewFlowerspage newFlowerspage = flowersPage.moveToNewFlowerspage();

@@ -7,7 +7,7 @@ public class Loginpage extends AbstractDriverBasePage{
     @FindBy(xpath = "//input[@id='id_login']")
     public SlWebElement login_username_textbox;
 
-    @FindBy(xpath = "//input[@type='password']")
+    @FindBy(xpath = "//input[@id='id_password']")
     public SlWebElement login_password_textbox;
 
     public SlWebElement getLogin_username_textbox() {
@@ -50,8 +50,9 @@ public class Loginpage extends AbstractDriverBasePage{
         return forgot_Submit;
     }
 
-    @FindBy(xpath = "//button[@type='submit']")
+    @FindBy(xpath = "//button[text()='Log in']")
     public SlWebElement login_button;
+
 
 
 }

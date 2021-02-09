@@ -12,7 +12,7 @@ public class FruitSelectionTest extends BaseTest {
     protected StartQuizPage startQuizPage ;
 
 
-    @Test(alwaysRun = true)
+    @Test(alwaysRun = true,groups = { "AnonymousUserRecommendations" })
     public void verifySelectionOfFruitRecommendations() {
         startQuizPage  = new StartQuizPage();
         waiting.waitTillSpinnerDisappears();

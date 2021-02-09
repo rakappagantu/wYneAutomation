@@ -12,7 +12,7 @@ public class LoginFunctionalityTest extends BaseTest {
 
     }
 
-    @Test
+    @Test(enabled = false)
     public void verifyRecommendations() {
         Loginpage loginpage = new Loginpage();
         waiting.waitForAjaxToComplete();

@@ -17,7 +17,7 @@ public class FlowerSelectionTest extends BaseTest {
     protected StartQuizPage startQuizPage ;
     protected FruitFlavorsPage fruitFlavorsPage;
     protected HerbsAndSpicespage herbsAndSpicespage;
-    @BeforeMethod()
+    @BeforeMethod(alwaysRun = true)
     public void beforeMethod() throws Exception{
         startQuizPage  = new StartQuizPage();
         waiting.waitTillSpinnerDisappears();
@@ -42,7 +42,7 @@ public class FlowerSelectionTest extends BaseTest {
         Assert.assertTrue(browserUtils.isElementClickable(herbsAndSpicespage.getNextButton()));
     }
 
-    @Test(alwaysRun = true)
+    @Test(alwaysRun = true,groups = { "AnonymousUserRecommendations" })
     public void verifySelectionOfFlowersRecommendations() {
         herbsAndSpicespage  = new HerbsAndSpicespage();
         FlowersPage flowersPage = herbsAndSpicespage.moveToFlowerSelectionPage();

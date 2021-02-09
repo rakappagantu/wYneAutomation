@@ -16,7 +16,7 @@ public class RecommendationsPageTest extends BaseTest {
     protected NewFlowerspage newflowersPage;
     protected ScentPage scentPage;
     protected SelectWyne selectWyne;
-    @BeforeMethod()
+    @BeforeMethod(alwaysRun = true)
     public void beforeMethod() throws Exception {
         startQuizPage = new StartQuizPage();
         waiting.waitTillSpinnerDisappears();
@@ -67,7 +67,7 @@ public class RecommendationsPageTest extends BaseTest {
         Assert.assertTrue(browserUtils.isElementExists(selectWyne.getNextButton()));
     }
 
-    @Test(alwaysRun = true)
+    @Test(alwaysRun = true,groups = { "AnonymousUserRecommendations" })
     public void verifySelectionOfNewFlowersRecommendations() {
         selectWyne = new SelectWyne();
         RecommendationsPage recommendationsPage  = selectWyne.moveToRecommendationsPage();

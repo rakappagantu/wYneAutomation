@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 public class HerbsAndSpicesSelectionTest extends BaseTest {
     protected StartQuizPage startQuizPage ;
     protected FruitFlavorsPage fruitFlavorsPage;
-    @BeforeMethod()
+    @BeforeMethod(alwaysRun = true)
     public void beforeMethod(){
         startQuizPage  = new StartQuizPage();
         waiting.waitTillSpinnerDisappears();
@@ -30,7 +30,7 @@ public class HerbsAndSpicesSelectionTest extends BaseTest {
     }
 
 
-    @Test(alwaysRun = true)
+    @Test(alwaysRun = true,groups = { "AnonymousUserRecommendations" })
     public void verifySelectionOfHerbsRecommendations() {
         fruitFlavorsPage  = new FruitFlavorsPage();
         HerbsAndSpicespage herbsAndSpicespage = fruitFlavorsPage.moveToHerbsAndSpicePage();

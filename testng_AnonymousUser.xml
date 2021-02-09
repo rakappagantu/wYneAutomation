@@ -2,6 +2,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Automation/wYneAutomation">
+        <groups>
+            <run>
+                <include name="AnonymousUserRecommendations" />
+            </run>
+        </groups>
         <classes>
             <class name="com.wYne.automation.tests.FlowerSelectionTest">
                 <methods>
