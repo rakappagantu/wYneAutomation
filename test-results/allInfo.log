@@ -7903,3 +7903,514 @@
 2021-02-09 12:50:32 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[ScentPage] , OBJECT:[nextButton], METHOD:[click], VALUE:[]
 2021-02-09 12:50:34 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[SelectWyne] , OBJECT:[nextButton], METHOD:[getTagName], VALUE:[]
 2021-02-09 12:50:34 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[SelectWyne] , OBJECT:[nextButton], METHOD:[isDisplayed], VALUE:[]
+2021-02-09 13:53:15 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-09 13:53:15 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-09 13:53:29 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-09 13:53:30 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-09 13:53:30 INFO  [main] [LoginFunctionalityTest] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-09 13:53:30 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[isDisplayed], VALUE:[]
+2021-02-09 13:53:31 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[sendKeys], VALUE:[[frontend]]
+2021-02-09 13:53:31 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[sendKeys], VALUE:[[wyneforyou]]
+2021-02-09 13:53:31 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[click], VALUE:[]
+2021-02-09 13:53:33 INFO  [main] [LoginFunctionalityTest] - In After base class
+2021-02-09 13:55:56 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-09 13:55:56 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-09 13:56:04 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-09 13:56:05 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-09 13:56:05 INFO  [main] [LoginFunctionalityTest] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-09 13:56:05 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[isDisplayed], VALUE:[]
+2021-02-09 13:56:05 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[sendKeys], VALUE:[[frontend]]
+2021-02-09 13:56:05 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[sendKeys], VALUE:[[wyneforyou]]
+2021-02-09 13:56:05 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[click], VALUE:[]
+2021-02-09 13:56:07 INFO  [main] [LoginFunctionalityTest] - In After base class
+2021-02-09 13:56:27 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-09 13:56:27 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-09 13:56:34 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-09 13:56:35 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-09 13:56:35 INFO  [main] [LoginFunctionalityTest] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-09 13:56:35 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[isDisplayed], VALUE:[]
+2021-02-09 13:56:35 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[sendKeys], VALUE:[[frontend]]
+2021-02-09 13:56:35 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[sendKeys], VALUE:[[wyneforyou]]
+2021-02-09 13:56:35 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[click], VALUE:[]
+2021-02-09 13:56:36 INFO  [main] [LoginFunctionalityTest] - In After base class
+2021-02-09 13:57:12 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-09 13:57:12 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-09 13:57:18 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-09 13:57:19 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-09 13:57:19 INFO  [main] [LoginFunctionalityTest] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-09 13:57:19 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[isDisplayed], VALUE:[]
+2021-02-09 13:57:19 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[sendKeys], VALUE:[[frontend]]
+2021-02-09 13:57:20 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[sendKeys], VALUE:[[wyneforyou]]
+2021-02-09 13:57:20 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[click], VALUE:[]
+2021-02-09 13:57:47 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-09 13:57:47 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-09 13:57:55 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-09 13:57:56 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-09 13:57:56 INFO  [main] [LoginFunctionalityTest] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-09 13:57:56 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[isDisplayed], VALUE:[]
+2021-02-09 13:57:56 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[sendKeys], VALUE:[[frontend]]
+2021-02-09 13:57:57 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[sendKeys], VALUE:[[wyneforyou]]
+2021-02-09 13:57:57 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[click], VALUE:[]
+2021-02-09 13:58:37 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-09 13:58:37 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-09 13:58:46 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-09 13:58:47 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-09 13:58:47 INFO  [main] [LoginFunctionalityTest] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-09 13:58:48 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[isDisplayed], VALUE:[]
+2021-02-09 13:58:48 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[sendKeys], VALUE:[[frontend]]
+2021-02-09 13:58:48 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[sendKeys], VALUE:[[wyneforyou]]
+2021-02-09 13:58:49 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[toString], VALUE:[]
+2021-02-09 13:58:49 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[toString], VALUE:[]
+2021-02-09 13:59:09 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[forgot_password], METHOD:[toString], VALUE:[]
+2021-02-09 13:59:20 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[toString], VALUE:[]
+2021-02-09 13:59:20 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[click], VALUE:[]
+2021-02-10 09:35:01 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-10 09:35:01 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 09:35:14 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 09:35:15 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 09:35:15 INFO  [main] [LoginFunctionalityTest] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 09:35:16 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[isDisplayed], VALUE:[]
+2021-02-10 09:35:16 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[sendKeys], VALUE:[[frontend]]
+2021-02-10 09:35:16 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[sendKeys], VALUE:[[wyneforyou]]
+2021-02-10 09:35:16 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[click], VALUE:[]
+2021-02-10 09:35:19 INFO  [main] [LoginFunctionalityTest] - In After base class
+2021-02-10 09:35:50 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-10 09:35:50 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 09:35:56 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 09:35:57 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 09:35:57 INFO  [main] [LoginFunctionalityTest] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 09:35:57 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[isDisplayed], VALUE:[]
+2021-02-10 09:35:57 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[sendKeys], VALUE:[[frontend]]
+2021-02-10 09:35:57 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[sendKeys], VALUE:[[wyneforyou]]
+2021-02-10 09:35:59 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 09:35:59 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 09:36:19 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[forgot_password], METHOD:[toString], VALUE:[]
+2021-02-10 09:36:30 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[toString], VALUE:[]
+2021-02-10 09:36:30 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[click], VALUE:[]
+2021-02-10 11:42:56 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-10 11:42:56 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 11:43:12 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 11:43:12 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 11:43:12 INFO  [main] [LoginFunctionalityTest] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 11:43:12 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[isDisplayed], VALUE:[]
+2021-02-10 11:43:13 INFO  [main] [LoginFunctionalityTest] - In After base class
+2021-02-10 11:45:08 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-10 11:45:08 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 11:45:18 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 11:45:18 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 11:45:18 INFO  [main] [LoginFunctionalityTest] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 11:45:18 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[isDisplayed], VALUE:[]
+2021-02-10 11:45:28 INFO  [main] [LoginFunctionalityTest] - In After base class
+2021-02-10 12:04:52 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-10 12:04:52 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 12:05:02 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 12:05:03 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 12:05:03 INFO  [main] [LoginFunctionalityTest] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 12:05:03 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[isDisplayed], VALUE:[]
+2021-02-10 12:05:04 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[sendKeys], VALUE:[[frontend]]
+2021-02-10 12:05:05 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[sendKeys], VALUE:[[wyneforyou]]
+2021-02-10 12:05:05 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[click], VALUE:[]
+2021-02-10 12:05:06 INFO  [main] [LoginFunctionalityTest] - In After base class
+2021-02-10 12:11:47 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-10 12:11:47 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 12:11:55 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 12:11:56 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 12:11:56 INFO  [main] [LoginFunctionalityTest] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 12:11:56 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[isDisplayed], VALUE:[]
+2021-02-10 12:11:56 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[sendKeys], VALUE:[[frontend]]
+2021-02-10 12:11:56 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[sendKeys], VALUE:[[wyneforyou]]
+2021-02-10 12:11:56 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[click], VALUE:[]
+2021-02-10 12:11:58 INFO  [main] [LoginFunctionalityTest] - In After base class
+2021-02-10 12:14:32 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-10 12:14:32 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 12:14:43 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 12:14:44 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 12:14:44 INFO  [main] [LoginFunctionalityTest] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 12:14:44 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[isDisplayed], VALUE:[]
+2021-02-10 12:14:44 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[sendKeys], VALUE:[[frontend]]
+2021-02-10 12:14:44 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[sendKeys], VALUE:[[wyneforyou]]
+2021-02-10 12:14:44 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[click], VALUE:[]
+2021-02-10 12:14:47 INFO  [main] [LoginFunctionalityTest] - In After base class
+2021-02-10 12:19:44 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-10 12:19:44 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 12:19:56 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 12:19:58 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 12:19:58 INFO  [main] [LoginFunctionalityTest] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 12:19:58 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[isDisplayed], VALUE:[]
+2021-02-10 12:19:58 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[sendKeys], VALUE:[[frontend]]
+2021-02-10 12:20:00 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[sendKeys], VALUE:[[wyneforyou]]
+2021-02-10 12:20:00 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[click], VALUE:[]
+2021-02-10 12:21:25 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-10 12:21:25 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 12:21:46 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 12:21:49 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 12:21:49 INFO  [main] [LoginFunctionalityTest] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 12:21:49 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[isDisplayed], VALUE:[]
+2021-02-10 12:21:50 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[sendKeys], VALUE:[[frontend]]
+2021-02-10 12:21:50 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[sendKeys], VALUE:[[wyneforyou]]
+2021-02-10 12:21:52 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 12:21:52 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 12:22:12 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[forgot_password], METHOD:[toString], VALUE:[]
+2021-02-10 12:22:23 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[toString], VALUE:[]
+2021-02-10 12:22:26 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 12:22:26 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 12:33:47 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-10 12:33:47 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 12:33:58 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 12:33:59 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 12:33:59 INFO  [main] [LoginFunctionalityTest] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 12:33:59 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[isDisplayed], VALUE:[]
+2021-02-10 12:34:00 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[sendKeys], VALUE:[[frontend]]
+2021-02-10 12:34:00 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[sendKeys], VALUE:[[wyneforyou]]
+2021-02-10 12:34:01 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 12:34:01 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 12:35:03 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-10 12:35:03 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 12:35:16 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 12:35:19 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 12:35:19 INFO  [main] [LoginFunctionalityTest] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 12:35:19 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[isDisplayed], VALUE:[]
+2021-02-10 12:35:20 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[sendKeys], VALUE:[[frontend]]
+2021-02-10 12:35:22 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[sendKeys], VALUE:[[wyneforyou]]
+2021-02-10 12:35:24 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 12:35:24 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 12:35:45 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[forgot_password], METHOD:[toString], VALUE:[]
+2021-02-10 12:35:56 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[toString], VALUE:[]
+2021-02-10 13:02:10 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[click], VALUE:[]
+2021-02-10 13:02:55 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-10 13:02:55 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 13:03:18 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 13:03:19 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 13:03:19 INFO  [main] [LoginFunctionalityTest] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 13:18:05 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-10 13:18:05 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 13:18:19 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 13:18:21 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 13:18:21 INFO  [main] [LoginFunctionalityTest] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 13:18:27 INFO  [main] [LoginFunctionalityTest] - In After base class
+2021-02-10 13:19:33 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-10 13:19:33 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 13:19:40 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 13:19:41 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 13:19:41 INFO  [main] [LoginFunctionalityTest] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 13:19:42 INFO  [main] [LoginFunctionalityTest] - In After base class
+2021-02-10 13:20:52 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-10 13:20:52 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 13:20:59 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 13:21:00 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 13:21:00 INFO  [main] [LoginFunctionalityTest] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 13:21:00 INFO  [main] [LoginFunctionalityTest] - In After base class
+2021-02-10 13:21:32 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-10 13:21:32 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 13:21:41 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 13:21:42 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 13:21:42 INFO  [main] [LoginFunctionalityTest] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 13:21:43 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 13:21:43 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 13:22:04 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[forgot_password], METHOD:[toString], VALUE:[]
+2021-02-10 13:22:14 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[toString], VALUE:[]
+2021-02-10 13:22:26 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 13:22:26 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 13:22:46 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[forgot_password], METHOD:[toString], VALUE:[]
+2021-02-10 13:22:56 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[toString], VALUE:[]
+2021-02-10 13:24:39 INFO  [main] [LoginFunctionalityTest] - In After base class
+2021-02-10 13:24:47 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-10 13:24:47 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 13:24:55 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 13:24:55 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 13:24:55 INFO  [main] [LoginFunctionalityTest] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 13:24:56 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 13:24:56 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 13:25:16 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[forgot_password], METHOD:[toString], VALUE:[]
+2021-02-10 13:25:27 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[toString], VALUE:[]
+2021-02-10 13:25:30 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 13:25:30 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 13:25:51 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[forgot_password], METHOD:[toString], VALUE:[]
+2021-02-10 13:26:01 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[toString], VALUE:[]
+2021-02-10 13:26:01 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 13:26:01 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 13:26:22 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[forgot_password], METHOD:[toString], VALUE:[]
+2021-02-10 13:26:33 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[toString], VALUE:[]
+2021-02-10 13:26:40 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 13:26:41 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 13:27:01 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[forgot_password], METHOD:[toString], VALUE:[]
+2021-02-10 13:27:11 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[toString], VALUE:[]
+2021-02-10 13:27:41 INFO  [main] [LoginFunctionalityTest] - In After base class
+2021-02-10 13:27:49 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-10 13:27:49 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 13:27:56 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 13:27:57 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 13:27:57 INFO  [main] [LoginFunctionalityTest] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 13:27:58 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 13:27:58 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 13:28:18 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[forgot_password], METHOD:[toString], VALUE:[]
+2021-02-10 13:28:28 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[toString], VALUE:[]
+2021-02-10 13:58:49 INFO  [main] [Cookies] - URL: []
+2021-02-10 13:58:49 INFO  [main] [Cookies] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 13:59:01 INFO  [main] [Cookies] - In the BeforeClass
+2021-02-10 13:59:02 INFO  [main] [Cookies] - In the BeforeClass
+2021-02-10 13:59:02 INFO  [main] [Cookies] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 13:59:04 INFO  [main] [Cookies] - In After base class
+2021-02-10 14:04:37 INFO  [main] [Cookies] - URL: []
+2021-02-10 14:04:58 INFO  [main] [Cookies] - URL: []
+2021-02-10 14:05:50 INFO  [main] [Cookies] - URL: []
+2021-02-10 14:06:45 INFO  [main] [Cookies] - URL: []
+2021-02-10 14:08:03 INFO  [main] [Cookies] - URL: []
+2021-02-10 14:09:05 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-10 14:09:05 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 14:09:14 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 14:09:14 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 14:09:14 INFO  [main] [LoginFunctionalityTest] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 14:09:15 INFO  [main] [LoginFunctionalityTest] - In After base class
+2021-02-10 14:21:00 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-10 14:21:00 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 14:21:07 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 14:21:08 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 14:21:08 INFO  [main] [LoginFunctionalityTest] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 14:21:11 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 14:21:11 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 14:21:32 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[forgot_password], METHOD:[toString], VALUE:[]
+2021-02-10 14:21:42 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[toString], VALUE:[]
+2021-02-10 14:21:42 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 14:21:42 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 14:22:03 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[forgot_password], METHOD:[toString], VALUE:[]
+2021-02-10 14:22:13 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[toString], VALUE:[]
+2021-02-10 14:22:13 INFO  [main] [LoginFunctionalityTest] - In After base class
+2021-02-10 14:25:06 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-10 14:25:06 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 14:25:12 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 14:25:13 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 14:25:13 INFO  [main] [LoginFunctionalityTest] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 14:25:15 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 14:25:15 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 14:25:36 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[forgot_password], METHOD:[toString], VALUE:[]
+2021-02-10 14:25:46 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[toString], VALUE:[]
+2021-02-10 14:25:46 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 14:25:46 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 14:26:06 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[forgot_password], METHOD:[toString], VALUE:[]
+2021-02-10 14:26:17 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[toString], VALUE:[]
+2021-02-10 14:26:17 INFO  [main] [LoginFunctionalityTest] - In After base class
+2021-02-10 14:32:45 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-10 14:32:45 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 14:32:51 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 14:32:52 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 14:32:52 INFO  [main] [LoginFunctionalityTest] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 14:32:53 INFO  [main] [LoginFunctionalityTest] - In After base class
+2021-02-10 14:34:54 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-10 14:34:54 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 14:35:00 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 14:35:00 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 14:35:00 INFO  [main] [LoginFunctionalityTest] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 14:35:01 INFO  [main] [LoginFunctionalityTest] - In After base class
+2021-02-10 14:35:49 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-10 14:35:49 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 14:35:55 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 14:35:56 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 14:35:56 INFO  [main] [LoginFunctionalityTest] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 14:35:57 INFO  [main] [LoginFunctionalityTest] - In After base class
+2021-02-10 14:36:58 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-10 14:36:58 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 14:37:04 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 14:37:05 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 14:37:05 INFO  [main] [LoginFunctionalityTest] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 14:37:06 INFO  [main] [LoginFunctionalityTest] - In After base class
+2021-02-10 14:37:34 INFO  [main] [Cookies] - URL: []
+2021-02-10 14:39:21 INFO  [main] [Cookies] - URL: []
+2021-02-10 14:41:05 INFO  [main] [Cookies] - URL: []
+2021-02-10 14:42:11 INFO  [main] [Cookies] - URL: []
+2021-02-10 14:42:34 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-10 14:42:34 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 14:46:13 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-10 14:46:13 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 14:46:20 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 14:46:20 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 14:46:20 INFO  [main] [LoginFunctionalityTest] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 14:46:21 INFO  [main] [LoginFunctionalityTest] - In After base class
+2021-02-10 14:46:59 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-10 14:47:00 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 14:47:05 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 14:47:05 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 14:47:05 INFO  [main] [LoginFunctionalityTest] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 14:47:06 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 14:47:06 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 14:47:27 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[forgot_password], METHOD:[toString], VALUE:[]
+2021-02-10 14:47:37 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[toString], VALUE:[]
+2021-02-10 14:47:43 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 14:47:43 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 14:48:04 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[forgot_password], METHOD:[toString], VALUE:[]
+2021-02-10 14:48:14 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[toString], VALUE:[]
+2021-02-10 14:48:14 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 14:48:14 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 14:48:35 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[forgot_password], METHOD:[toString], VALUE:[]
+2021-02-10 14:48:45 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[toString], VALUE:[]
+2021-02-10 14:48:45 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 14:48:45 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 14:49:06 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[forgot_password], METHOD:[toString], VALUE:[]
+2021-02-10 14:49:16 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[toString], VALUE:[]
+2021-02-10 14:49:16 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 14:49:16 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 14:49:37 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[forgot_password], METHOD:[toString], VALUE:[]
+2021-02-10 14:49:47 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[toString], VALUE:[]
+2021-02-10 14:58:07 INFO  [main] [LoginFunctionalityTest] - In After base class
+2021-02-10 14:58:13 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-10 14:58:13 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 14:58:22 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 14:58:23 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 14:58:23 INFO  [main] [LoginFunctionalityTest] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 14:58:24 INFO  [main] [LoginFunctionalityTest] - In After base class
+2021-02-10 15:04:34 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-10 15:04:34 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 15:04:39 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 15:04:40 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 15:04:40 INFO  [main] [LoginFunctionalityTest] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 15:04:42 INFO  [main] [LoginFunctionalityTest] - In After base class
+2021-02-10 15:10:08 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-10 15:10:08 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 15:10:15 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 15:10:16 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 15:10:16 INFO  [main] [LoginFunctionalityTest] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 15:10:16 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 15:10:17 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 15:11:02 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-10 15:11:02 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 15:11:07 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 15:11:08 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 15:11:08 INFO  [main] [LoginFunctionalityTest] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 15:11:08 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 15:11:08 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 15:11:29 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[forgot_password], METHOD:[toString], VALUE:[]
+2021-02-10 15:11:39 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[toString], VALUE:[]
+2021-02-10 15:11:41 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 15:11:41 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 15:12:01 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[forgot_password], METHOD:[toString], VALUE:[]
+2021-02-10 15:12:11 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[toString], VALUE:[]
+2021-02-10 15:12:11 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 15:12:11 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 15:12:32 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[forgot_password], METHOD:[toString], VALUE:[]
+2021-02-10 15:12:42 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[toString], VALUE:[]
+2021-02-10 15:12:42 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 15:12:42 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 15:13:03 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[forgot_password], METHOD:[toString], VALUE:[]
+2021-02-10 15:13:13 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[toString], VALUE:[]
+2021-02-10 15:13:13 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 15:13:14 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 15:13:34 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[forgot_password], METHOD:[toString], VALUE:[]
+2021-02-10 15:13:44 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[toString], VALUE:[]
+2021-02-10 15:13:44 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 15:13:44 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 15:14:05 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[forgot_password], METHOD:[toString], VALUE:[]
+2021-02-10 15:14:15 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[toString], VALUE:[]
+2021-02-10 15:14:15 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 15:14:15 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 15:14:35 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[forgot_password], METHOD:[toString], VALUE:[]
+2021-02-10 15:14:45 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[toString], VALUE:[]
+2021-02-10 15:14:46 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 15:14:46 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 15:15:06 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[forgot_password], METHOD:[toString], VALUE:[]
+2021-02-10 15:15:17 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[toString], VALUE:[]
+2021-02-10 15:15:17 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 15:15:17 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 15:15:37 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[forgot_password], METHOD:[toString], VALUE:[]
+2021-02-10 15:15:47 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[toString], VALUE:[]
+2021-02-10 15:15:47 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 15:15:47 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 15:16:08 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[forgot_password], METHOD:[toString], VALUE:[]
+2021-02-10 15:16:18 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[toString], VALUE:[]
+2021-02-10 15:16:18 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 15:16:18 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 15:16:39 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[forgot_password], METHOD:[toString], VALUE:[]
+2021-02-10 15:16:49 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[toString], VALUE:[]
+2021-02-10 15:16:49 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 15:16:49 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 15:17:09 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[forgot_password], METHOD:[toString], VALUE:[]
+2021-02-10 15:17:20 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[toString], VALUE:[]
+2021-02-10 15:17:52 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-10 15:17:52 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 15:17:58 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 15:17:59 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 15:17:59 INFO  [main] [LoginFunctionalityTest] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 15:17:59 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 15:17:59 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[toString], VALUE:[]
+2021-02-10 15:18:20 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[forgot_password], METHOD:[toString], VALUE:[]
+2021-02-10 15:18:30 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[toString], VALUE:[]
+2021-02-10 15:18:31 INFO  [main] [LoginFunctionalityTest] - In After base class
+2021-02-10 17:44:43 INFO  [main] [CookieRead] - URL: []
+2021-02-10 17:44:43 INFO  [main] [CookieRead] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 17:45:01 INFO  [main] [CookieRead] - In the BeforeClass
+2021-02-10 17:45:02 INFO  [main] [CookieRead] - In the BeforeClass
+2021-02-10 17:45:02 INFO  [main] [CookieRead] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 17:45:04 INFO  [main] [CookieRead] - In After base class
+2021-02-10 17:51:50 INFO  [main] [CookieRead] - URL: []
+2021-02-10 17:51:50 INFO  [main] [CookieRead] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 17:51:57 INFO  [main] [CookieRead] - In the BeforeClass
+2021-02-10 17:51:57 INFO  [main] [CookieRead] - In the BeforeClass
+2021-02-10 17:51:57 INFO  [main] [CookieRead] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 17:52:16 INFO  [main] [CookieRead] - In After base class
+2021-02-10 17:52:43 INFO  [main] [CookieRead] - URL: []
+2021-02-10 17:52:43 INFO  [main] [CookieRead] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 17:52:50 INFO  [main] [CookieRead] - In the BeforeClass
+2021-02-10 17:52:50 INFO  [main] [CookieRead] - In the BeforeClass
+2021-02-10 17:52:50 INFO  [main] [CookieRead] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 17:52:53 INFO  [main] [CookieRead] - In After base class
+2021-02-10 17:53:23 INFO  [main] [CookieRead] - URL: []
+2021-02-10 17:53:23 INFO  [main] [CookieRead] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 17:53:30 INFO  [main] [CookieRead] - In the BeforeClass
+2021-02-10 17:53:31 INFO  [main] [CookieRead] - In the BeforeClass
+2021-02-10 17:53:31 INFO  [main] [CookieRead] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 17:53:39 INFO  [main] [CookieRead] - In After base class
+2021-02-10 23:20:10 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-10 23:20:10 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 23:20:23 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 23:20:24 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 23:20:24 INFO  [main] [LoginFunctionalityTest] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 23:20:28 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[isDisplayed], VALUE:[]
+2021-02-10 23:20:29 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[sendKeys], VALUE:[[frontend]]
+2021-02-10 23:20:29 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[sendKeys], VALUE:[[wyneforyou]]
+2021-02-10 23:20:29 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[click], VALUE:[]
+2021-02-10 23:20:40 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Inventory] , OBJECT:[logOutButton], METHOD:[getTagName], VALUE:[]
+2021-02-10 23:20:41 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Inventory] , OBJECT:[logOutButton], METHOD:[isDisplayed], VALUE:[]
+2021-02-10 23:20:41 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Inventory] , OBJECT:[logOutButton], METHOD:[getAttribute], VALUE:[null]
+2021-02-10 23:20:41 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Inventory] , OBJECT:[logOutButton], METHOD:[isEnabled], VALUE:[]
+2021-02-10 23:20:42 INFO  [main] [LoginFunctionalityTest] - In After base class
+2021-02-10 23:21:34 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-10 23:21:34 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 23:21:41 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 23:21:41 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 23:21:41 INFO  [main] [LoginFunctionalityTest] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 23:21:44 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[isDisplayed], VALUE:[]
+2021-02-10 23:21:44 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[sendKeys], VALUE:[[frontend]]
+2021-02-10 23:21:44 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[sendKeys], VALUE:[[wyneforyou]]
+2021-02-10 23:21:44 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[click], VALUE:[]
+2021-02-10 23:21:53 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Inventory] , OBJECT:[logOutButton], METHOD:[getTagName], VALUE:[]
+2021-02-10 23:21:53 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Inventory] , OBJECT:[logOutButton], METHOD:[isDisplayed], VALUE:[]
+2021-02-10 23:21:53 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Inventory] , OBJECT:[logOutButton], METHOD:[getAttribute], VALUE:[null]
+2021-02-10 23:21:53 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Inventory] , OBJECT:[logOutButton], METHOD:[isEnabled], VALUE:[]
+2021-02-10 23:21:53 INFO  [main] [LoginFunctionalityTest] - In After base class
+2021-02-10 23:24:13 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-10 23:24:13 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 23:24:18 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 23:24:19 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-10 23:24:19 INFO  [main] [LoginFunctionalityTest] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-10 23:24:20 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[isDisplayed], VALUE:[]
+2021-02-10 23:24:21 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[sendKeys], VALUE:[[frontend]]
+2021-02-10 23:24:21 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[sendKeys], VALUE:[[wyneforyou]]
+2021-02-10 23:24:21 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[click], VALUE:[]
+2021-02-10 23:24:30 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Inventory] , OBJECT:[logOutButton], METHOD:[getTagName], VALUE:[]
+2021-02-10 23:24:30 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Inventory] , OBJECT:[logOutButton], METHOD:[isDisplayed], VALUE:[]
+2021-02-10 23:24:30 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Inventory] , OBJECT:[logOutButton], METHOD:[getAttribute], VALUE:[null]
+2021-02-10 23:24:30 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Inventory] , OBJECT:[logOutButton], METHOD:[isEnabled], VALUE:[]
+2021-02-10 23:24:30 INFO  [main] [LoginFunctionalityTest] - In After base class
+2021-02-11 09:46:19 INFO  [main] [LoginFunctionalityTest] - URL: []
+2021-02-11 09:46:19 INFO  [main] [LoginFunctionalityTest] - baseurl in setup class ---------> https://dev-portal.wyne.ai/accounts/login/
+2021-02-11 09:46:38 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-11 09:46:40 INFO  [main] [LoginFunctionalityTest] - In the BeforeClass
+2021-02-11 09:46:40 INFO  [main] [LoginFunctionalityTest] - url:https://dev-portal.wyne.ai/accounts/login/
+2021-02-11 09:46:43 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[isDisplayed], VALUE:[]
+2021-02-11 09:46:43 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_username_textbox], METHOD:[sendKeys], VALUE:[[frontend]]
+2021-02-11 09:46:44 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_password_textbox], METHOD:[sendKeys], VALUE:[[wyneforyou]]
+2021-02-11 09:46:44 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Loginpage] , OBJECT:[login_button], METHOD:[click], VALUE:[]
+2021-02-11 09:47:00 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Inventory] , OBJECT:[logOutButton], METHOD:[getTagName], VALUE:[]
+2021-02-11 09:47:00 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Inventory] , OBJECT:[logOutButton], METHOD:[isDisplayed], VALUE:[]
+2021-02-11 09:47:00 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Inventory] , OBJECT:[logOutButton], METHOD:[getAttribute], VALUE:[null]
+2021-02-11 09:47:00 INFO  [main] [WyneLogger] - LOGGING THE ACTIONS:CLASS:[Inventory] , OBJECT:[logOutButton], METHOD:[isEnabled], VALUE:[]
+2021-02-11 09:47:00 INFO  [main] [LoginFunctionalityTest] - In After base class
